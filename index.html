@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Baseball Card Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-title">
+        <span class="header-icon">⚾</span>
+        <div>
+          <h1>My Card Collection</h1>
+          <p class="header-sub">Baseball cards, tracked and catalogued</p>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-num" id="total-count">—</span>
+          <span class="stat-label">Total cards</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="rc-count">—</span>
+          <span class="stat-label">Rookie cards</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="total-value">—</span>
+          <span class="stat-label">Est. value</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search by player, team, or set…" />
+      <select id="filter-year">
+        <option value="">All years</option>
+      </select>
+      <select id="filter-brand">
+        <option value="">All brands</option>
+      </select>
+      <select id="filter-special">
+        <option value="">All cards</option>
+        <option value="rookie">Rookie cards only</option>
+        <option value="auto">Autographs only</option>
+      </select>
+    </div>
+
+    <p class="results-label" id="results-label"></p>
+
+    <div class="card-grid" id="card-grid">
+      <p class="loading">Loading collection…</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Built with GitHub Pages &mdash; updated whenever I add new cards</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

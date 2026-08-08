@@ -1,0 +1,295 @@
+/* ── Reset & base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:       #1a5c2a;
+  --green-light: #e8f5ec;
+  --green-mid:   #2d7a3a;
+  --tan:         #f5f0e8;
+  --tan-dark:    #e8e0d0;
+  --leather:     #8b5e3c;
+  --cream:       #fdf9f3;
+  --text:        #1c1c1a;
+  --text-muted:  #6b6760;
+  --border:      #ddd8cc;
+  --white:       #ffffff;
+  --red:         #c0392b;
+  --gold:        #b8860b;
+  --radius:      10px;
+  --shadow:      0 2px 8px rgba(0,0,0,0.08);
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--cream);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ── */
+header {
+  background: var(--green);
+  color: var(--white);
+  padding: 1.5rem 2rem;
+  border-bottom: 4px solid var(--leather);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.header-sub {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.65);
+  font-style: italic;
+  margin-top: 2px;
+  font-family: Arial, sans-serif;
+}
+
+.header-stats {
+  display: flex;
+  gap: 2rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-num {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #a8d8b0;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.55);
+  margin-top: 3px;
+  font-family: Arial, sans-serif;
+}
+
+/* ── Main ── */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1;
+  width: 100%;
+}
+
+/* ── Controls ── */
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.controls input,
+.controls select {
+  font-family: Arial, sans-serif;
+  font-size: 0.875rem;
+  padding: 0.55rem 0.9rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.controls input { flex: 1; min-width: 220px; }
+.controls select { min-width: 140px; }
+
+.controls input:focus,
+.controls select:focus {
+  border-color: var(--green);
+}
+
+.results-label {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+/* ── Card grid ── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.loading {
+  font-family: Arial, sans-serif;
+  color: var(--text-muted);
+  font-style: italic;
+  grid-column: 1/-1;
+}
+
+.no-results {
+  font-family: Arial, sans-serif;
+  color: var(--text-muted);
+  font-style: italic;
+  grid-column: 1/-1;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* ── Individual card ── */
+.card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.card-top {
+  background: var(--tan);
+  border-bottom: 1.5px solid var(--tan-dark);
+  padding: 1rem 1rem 0.75rem;
+  position: relative;
+}
+
+.card-year-brand {
+  font-family: Arial, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.card-player {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--green);
+}
+
+.card-team {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: Arial, sans-serif;
+  margin-top: 2px;
+}
+
+.card-badges {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.badge {
+  font-family: Arial, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.badge-rc   { background: var(--red);    color: #fff; }
+.badge-auto { background: var(--gold);   color: #fff; }
+
+.card-body {
+  padding: 0.85rem 1rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--tan);
+  font-size: 0.82rem;
+}
+
+.card-row:last-child { border-bottom: none; }
+
+.row-label {
+  font-family: Arial, sans-serif;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.row-value {
+  font-weight: 600;
+  color: var(--text);
+  text-align: right;
+}
+
+.value-money { color: var(--green-mid); }
+
+.card-notes {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--tan);
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--text-muted);
+  font-family: Arial, sans-serif;
+}
+
+/* ── Footer ── */
+footer {
+  background: var(--tan);
+  border-top: 1.5px solid var(--border);
+  text-align: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  header { padding: 1.25rem 1rem; }
+  main   { padding: 1.25rem 1rem; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .header-stats { gap: 1.25rem; }
+  h1 { font-size: 1.4rem; }
+}
