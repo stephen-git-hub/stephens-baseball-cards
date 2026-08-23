@@ -57,7 +57,7 @@
     "autograph": true,
     "condition": "Mint",
     "estimated_value": 15.00,
-    "notes": "Autgraphed"
+    "notes": "Autographed"
   },
   {
     "id": 5,
@@ -76,7 +76,7 @@
   },
   {
     "id": 6,
-    "player": "Ablert Belle",
+    "player": "Albert Belle",
     "team": "Cleveland Indians",
     "year": 1994,
     "brand": "Post",
@@ -151,11 +151,11 @@
      },
   {
     "id": 11,
-    "player": "Kirby Pucket",
+    "player": "Kirby Puckett",
     "team": "Minnesota Twins",
     "year": 1995,
     "brand": "Fleer",
-    "set": "95 Fleer Ulatra",
+    "set": "95 Fleer Ultra",
     "card_number": "76",
     "position": "OF",
     "rookie_card": false,
@@ -170,7 +170,7 @@
     "team": "Cleveland Indians",
     "year": 1997,
     "brand": "Pinnacle",
-    "set": "95 Fleer Ulatra",
+    "set": "Pinnacle",
     "card_number": "Denny's 1 of 1",
     "position": "OF",
     "rookie_card": false,
@@ -275,7 +275,7 @@
     "team": "Arizona Diamondbacks",
     "year": 2021,
     "brand": "Topps",
-    "set": "Fleer 91",
+    "set": "Topps",
     "card_number": "NG-4",
     "position": "P",
     "rookie_card": false,
