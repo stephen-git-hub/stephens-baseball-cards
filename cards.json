@@ -89,4 +89,64 @@
     "estimated_value": 10.00,
     "notes": "Post Cereal Box Card"
   }
+   {
+    "id": 7,
+    "player": "Ken Griffey Jr",
+    "team": "Seattle Mariners",
+    "year": 1995,
+    "brand": "Sportflix-Pinnacle",
+    "set": "Sportflix-Pinnacle",
+    "card_number": "124",
+    "position": "OF",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 5.00,
+    "notes": "Hologrpahic"
+     }
+   {
+    "id": 8,
+    "player": "Carlos Baerga",
+    "team": "Cleveland Indians",
+    "year": 1994,
+    "brand": "Upper Deck",
+    "set": "Upper Deck",
+    "card_number": "144",
+    "position": "2B",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 0.01,
+    "notes": ""
+     }
+   {
+    "id": 9,
+    "player": "CC Sabathia",
+    "team": "New York Yamkees",
+    "year": 2021,
+    "brand": "Topps",
+    "set": "Prominent Baseball Players",
+    "card_number": "TR-1",
+    "position": "P",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 1.00,
+    "notes": "Commemorative Portrait"
+     }
+   {
+    "id": 10,
+    "player": "Orel Hershiser",
+    "team": "Cleveland Indians",
+    "year": 1996,
+    "brand": "Upper Deck",
+    "set": "Upper Deck Baseball",
+    "card_number": "59",
+    "position": "P",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Like new",
+    "estimated_value": 1.00,
+    "notes": ""
+    
 ]
