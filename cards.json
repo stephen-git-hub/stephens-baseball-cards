@@ -11,7 +11,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 25.00,
+    "estimated_value": 15.00,
     "notes": "Relic Card (Jersey Piece)"
   },
   {
@@ -26,7 +26,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 11.00,
+    "estimated_value": 10.00,
     "notes": "Relic Card (Jersey Piece)"
   },
   {
@@ -41,7 +41,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 20.00,
+    "estimated_value": 5.00,
     "notes": "Holographic"
   },
   {
@@ -56,7 +56,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 15.00,
+    "estimated_value": 5.00,
     "notes": ""
   },
   {
@@ -71,7 +71,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 15.00,
+    "estimated_value": 7.50,
     "notes": "Special Anniversary Card"
   },
   {
@@ -86,7 +86,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 10.00,
+    "estimated_value": 4.00,
     "notes": "Post Cereal Box Card"
   },
    {
@@ -176,7 +176,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 5.00,
+    "estimated_value": 4.00,
     "notes": "Denny's promotional holographic"
      },
    {
@@ -206,7 +206,7 @@
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 5.00,
+    "estimated_value": 3.00,
     "notes": "Commemorative Tomahawk Portrait"
      },
   {
@@ -298,5 +298,97 @@
     "condition": "Like New",
     "estimated_value": 0.01,
     "notes": ""
+     },
+  {
+    "id": 21,
+    "player": "Steven Kwan",
+    "team": "Cleveland Gaurdians",
+    "year": 2022,
+    "brand": "Topps",
+    "set": "Topps Update Series 2022",
+    "card_number": "US261",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 15.00,
+    "notes": ""
+     },
+  {
+    "id": 22,
+    "player": "Cal Ripken Jr.",
+    "team": "Baltimore Orioles",
+    "year": 2021,
+    "brand": "Topps",
+    "set": "2021 Topps Baseball Series One",
+    "card_number": "70LP-CR",
+    "position": "SS",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 5.00,
+    "notes": "Commemorative 70th Anniversiy Patch"
+     },
+  {
+    "id": 23,
+    "player": "Chase DeLauter",
+    "team": "Cleveland Gaurdians",
+    "year": 2026,
+    "brand": "Topps",
+    "set": "Topps 2026 Series Two"",
+    "card_number": "458",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 15.00,
+    "notes": ""
+     },
+  {
+    "id": 24,
+    "player": "Andres Gimenez",
+    "team": "New York Mets",
+    "year": 2021,
+    "brand": "Topps",
+    "set": "Topps 2021 Series One",
+    "card_number": "53",
+    "position": "SS/SB",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 3.00,
+    "notes": ""
+     },
+  {
+    "id": 25,
+    "player": "Alec Bohm",
+    "team": "Philadelphia Phillies",
+    "year": 2021,
+    "brand": "Topps",
+    "set": "Topps 2021 Series One",
+    "card_number": "277",
+    "position": "3B",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 3.00,
+    "notes": ""
+     },
+  {
+    "id": 26,
+    "player": "Parker Messick",
+    "team": "Cleveland Guardians",
+    "year": 2026,
+    "brand": "Topps",
+    "set": "Topps 2026 Series One",
+    "card_number": "67",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 2.50,
+    "notes": ""
      }
 ]
+  
+
