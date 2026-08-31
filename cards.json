@@ -39,10 +39,10 @@
     "card_number": "TC52-6",
     "position": "OF",
     "rookie_card": false,
-    "autograph": true,
+    "autograph": false,
     "condition": "Mint",
     "estimated_value": 20.00,
-    "notes": "Autographed Holographic"
+    "notes": "Holographic"
   },
   {
     "id": 4,
@@ -54,10 +54,10 @@
     "card_number": "T52-34",
     "position": "1B",
     "rookie_card": false,
-    "autograph": true,
+    "autograph": false,
     "condition": "Mint",
     "estimated_value": 15.00,
-    "notes": "Autographed"
+    "notes": ""
   },
   {
     "id": 5,
