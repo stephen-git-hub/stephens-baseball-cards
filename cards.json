@@ -418,6 +418,36 @@
     "condition": "Mint",
     "estimated_value": 30.00,
     "notes": "Graded GEM MT 10 by GMA; First Dodgers HR milestone card"
+     },
+      {
+    "id": 29,
+    "player": "Randy Arozarena",
+    "team": "St Louis Cardinals",
+    "year": 2020,
+    "brand": "Topps",
+    "set": "Topps 2020 Series One",
+    "card_number": "229",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 15.00,
+    "notes": "Graded GEM MT 10 by PSA"
+     },
+  {
+  "id": 30,
+    "player": "Kennys Vargas",
+    "team": "Minnesota Twins",
+    "year": 2015,
+    "brand": "Topps",
+    "set": "Topps Certified Autograph Issues",
+    "card_number": "SCA KV",
+    "position": "1B",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "Mint",
+    "estimated_value": 5.00,
+    "notes": ""
      }
 ]
   
