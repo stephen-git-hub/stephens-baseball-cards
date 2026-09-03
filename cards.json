@@ -523,6 +523,21 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
+     }'
+      {
+  "id": 36,
+    "player": "Paul Skenes",
+    "team": "Pittsburgh Pirates",
+    "year": 2024,
+    "brand": "Topps",
+    "set": "Topps MLB Living Set",
+    "card_number": "768",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 20.00,
+    "notes": "Graded GEM MT 10 by WCG"
      }
 ]
   
