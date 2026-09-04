@@ -1333,6 +1333,21 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": ""
+     },
+  {
+  "id": 55,
+    "player": "Nick Madrigal",
+    "team": "Chicago White Sox",
+    "year": 2021,
+    "brand": "Topps",
+    "set": "Topps Series One",
+    "card_number": "197",
+    "position": "2B",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 0.25,
+    "notes": ""
      }  
 ]
   
