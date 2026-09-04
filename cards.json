@@ -177,7 +177,7 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 4.00,
-    "notes": "Denny's promotional holographic"
+    "notes": "Denny's Promotional Holographic"
      },
    {
     "id": 13,
@@ -402,7 +402,7 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 7.00,
-    "notes": "Commemorative portrait"
+    "notes": "Commemorative Portrait"
      },
     {
     "id": 28,
@@ -417,7 +417,7 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 30.00,
-    "notes": "Graded GEM MT 10 by GMA; First Dodgers HR milestone card"
+    "notes": "Graded GEM MT 10 by GMA; First Dodgers HR Milestone Card"
      },
       {
     "id": 29,
@@ -556,21 +556,6 @@
      },
       {
   "id": 38,
-    "player": "",
-    "team": "Cleveland Gaurdians",
-    "year": 2026,
-    "brand": "Topps",
-    "set": "Topps Series Two",
-    "card_number": "240",
-    "position": "",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 39,
     "player": "Gabriel Arias",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -585,7 +570,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 40,
+  "id": 39,
     "player": "Tanner Bibee",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -600,7 +585,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 41,
+  "id": 40,
     "player": "Joes Cantillo",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -615,7 +600,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 42,
+  "id": 41,
     "player": "Slade Cecconi",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -630,7 +615,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 43,
+  "id": 42,
     "player": "Cleveland Takes Flight",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -645,7 +630,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 44,
+  "id": 43,
     "player": "Cleveland Gaurdians",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -660,7 +645,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 45,
+  "id": 44,
     "player": "Petey Halpin",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -675,7 +660,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
       {
-  "id": 46,
+  "id": 45,
     "player": "C.J Kayfus",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -690,7 +675,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 48,
+  "id": 46,
     "player": "Austin Hedges",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -705,7 +690,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 49,
+  "id": 47,
     "player": "Steven Kwan",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -720,7 +705,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 50,
+  "id": 48,
     "player": "Ben Lively",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -735,7 +720,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 51,
+  "id": 49,
     "player": "Kyle Manzardo",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -750,7 +735,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 52,
+  "id": 50,
     "player": "Angel Martinez",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -765,7 +750,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 53,
+  "id": 51,
     "player": "Bo Naylor",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -780,7 +765,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 54,
+  "id": 52,
     "player": "Jose Ramirez",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -795,7 +780,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 55,
+  "id": 53,
     "player": "Brayan Rocchio",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -810,7 +795,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
   {
-  "id": 56,
+  "id": 54,
     "player": "Daniel Schneemann",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -825,7 +810,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
     {
-  "id": 57,
+  "id": 56,
     "player": "Cade Smith",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -840,7 +825,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
     {
-  "id": 58,
+  "id": 57,
     "player": "George Valera",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -855,7 +840,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
     {
-  "id": 59,
+  "id": 58,
     "player": "Gavin Williams",
     "team": "Cleveland Gaurdians",
     "year": 2026,
@@ -870,7 +855,7 @@
     "notes": "Gaurdians 2026 Team Set"
      },
     {
-  "id": 60,
+  "id": 59,
     "player": "Shogo Akiyama",
     "team": "Cincinnati Reds",
     "year": 2020,
@@ -885,7 +870,7 @@
     "notes": "Commemorative Portrait"
      },
     {
-  "id": 61,
+  "id": 60,
     "player": "Aristides Aquino",
     "team": "Cincinnati Reds",
     "year": 2021,
@@ -900,7 +885,7 @@
     "notes": "Future Stars"
      },
     {
-  "id": 62,
+  "id": 61,
     "player": "Shane Bieber",
     "team": "Cleveland Indians",
     "year": 2021,
@@ -915,7 +900,7 @@
     "notes": "League Leaders"
      },
     {
-  "id": 63,
+  "id": 62,
     "player": "Jeromy Burnitz",
     "team": "Milkwaukee Brewers",
     "year": 2002,
@@ -930,7 +915,7 @@
     "notes": "Post Cereal Box Card"
      },
     {
-  "id": 64,
+  "id": 63,
     "player": "Drew Butera",
     "team": "Colorado Rockies",
     "year": 2020,
@@ -945,7 +930,7 @@
     "notes": ""
      },
     {
-  "id": 65,
+  "id": 64,
     "player": "Miguel Cabrera",
     "team": "Detroit Tigers",
     "year": 2021,
@@ -960,7 +945,7 @@
     "notes": ""
      },
     {
-  "id": 66,
+  "id": 65,
     "player": "Kristian Campbell",
     "team": "Boston Red Sox",
     "year": 2025,
@@ -975,7 +960,7 @@
     "notes": "Holographic"
      },
     {
-  "id": 67,
+  "id": 66,
     "player": "Matt Chapman",
     "team": "San Francisco Giants",
     "year": 2025,
@@ -990,7 +975,7 @@
     "notes": "Holographic"
      },
     {
-  "id": 68,
+  "id": 67,
     "player": "Robinson Chirinos",
     "team": "Texas Rangers",
     "year": 2020,
@@ -1005,7 +990,7 @@
     "notes": ""
      },
   {
-  "id": 69,
+  "id": 68,
     "player": "Gerrit Cole",
     "team": "New York Yankees",
     "year": 2021,
@@ -1020,7 +1005,7 @@
     "notes": ""
      },
    {
-  "id": 70,
+  "id": 69,
     "player": "Gerrit Cole",
     "team": "New York Yankees",
     "year": 2021,
@@ -1065,7 +1050,7 @@
     "notes": ""
      },
    {
-  "id": 71,
+  "id": 72,
     "player": "Dane Dunning",
     "team": "Chicago White Sox",
     "year": 2021,
@@ -1080,7 +1065,7 @@
     "notes": ""
      },
    {
-  "id": 72,
+  "id": 73,
     "player": "Todd Frazier",
     "team": "Texas Rangers",
     "year": 2020,
@@ -1095,7 +1080,7 @@
     "notes": ""
      },
     {
-  "id": 73,
+  "id": 74,
     "player": "Sonny Gray",
     "team": "Cincinnati Reds",
     "year": 2021,
@@ -1110,7 +1095,7 @@
     "notes": ""
      },
     {
-  "id": 74,
+  "id": 75,
     "player": "Zack Greinke",
     "team": "Houston Astros",
     "year": 2020,
@@ -1125,7 +1110,7 @@
     "notes": ""
      },
     {
-  "id": 75,
+  "id": 76,
     "player": "Trent Grisham",
     "team": "San Diego Padres",
     "year": 2021,
@@ -1140,7 +1125,7 @@
     "notes": "Future Stars"
      },
     {
-  "id": 76,
+  "id": 77,
     "player": "Ozzie Guillen",
     "team": "Chicago White Sox",
     "year": 1991,
@@ -1155,7 +1140,7 @@
     "notes": ""
      },
     {
-  "id": 77,
+  "id": 78,
     "player": "Rickey Henderson",
     "team": "New York Yankees",
     "year": 1989,
@@ -1170,7 +1155,7 @@
     "notes": "775th Stolen Base Milestone Card"
      },
     {
-  "id": 78,
+  "id": 79,
     "player": "Orel Hershiser",
     "team": "Los Angeles Dodgers",
     "year": 1991,
@@ -1185,7 +1170,7 @@
     "notes": ""
      },
     {
-  "id": 79,
+  "id": 80,
     "player": "Orel Hershiser",
     "team": "Cleveland Indians",
     "year": 1997,
@@ -1200,7 +1185,7 @@
     "notes": ""
      },
     {
-  "id": 80,
+  "id": 81,
     "player": "Orel Hershiser",
     "team": "Cleveland Indians",
     "year": 1997,
