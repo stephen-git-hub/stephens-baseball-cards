@@ -273,7 +273,7 @@ main {
   right: 0.75rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 4px;
   align-items: flex-end;
   padding-top: 0.5rem;
@@ -364,4 +364,9 @@ footer {
   border: 1px solid var(--gold);
   background: var(--maroon-mid);
   flex-shrink: 0;
+}
+
+/* When card has both RC + Auto, push position icon to bottom */
+.card-badges.dual-badge {
+  justify-content: flex-end;
 }
