@@ -102,8 +102,13 @@ function cardHTML(card) {
     <div class="card">
       <div class="card-top">
         <div class="card-year-brand">${card.year} &middot; ${card.brand}</div>
-        <div class="card-player">${card.player}</div>
-        <div class="card-team">${card.team}</div>
+        <div class="card-player-row">
+          <img src="Cubical_Logo.jpg" alt="" class="card-logo" />
+          <div>
+            <div class="card-player">${card.player}</div>
+            <div class="card-team">${card.team}</div>
+          </div>
+        </div>
         <div class="card-badges">${badges}</div>
       </div>
       <div class="card-body">
