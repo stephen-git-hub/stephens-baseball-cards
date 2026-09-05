@@ -151,3 +151,40 @@ function cardHTML(card) {
       </div>
     </div>`;
 }
+
+// ── Hotdog rain on card hover ──
+const HOTDOGS = ['🌭','🌭','🌭','🌭','🌭'];
+
+document.getElementById('card-grid').addEventListener('mouseover', function(e) {
+  const top = e.target.closest('.card-top');
+  if (!top || top.querySelector('.emoji-rain')) return;
+
+  const rain = document.createElement('div');
+  rain.className = 'emoji-rain';
+  top.appendChild(rain);
+
+  function spawnDrop() {
+    if (!top.querySelector('.emoji-rain')) return;
+    const drop = document.createElement('span');
+    drop.className   = 'emoji-drop';
+    drop.textContent = '🌭';
+    drop.style.left              = (Math.random() * 100) + '%';
+    drop.style.fontSize          = (11 + Math.floor(Math.random() * 8)) + 'px';
+    drop.style.animationDelay    = '0s';
+    drop.style.animationDuration = (0.8 + Math.random() * 0.5) + 's';
+    rain.appendChild(drop);
+    setTimeout(() => drop.remove(), 1400);
+    if (top.querySelector('.emoji-rain')) {
+      setTimeout(spawnDrop, 80 + Math.random() * 100);
+    }
+  }
+
+  spawnDrop();
+});
+
+document.getElementById('card-grid').addEventListener('mouseout', function(e) {
+  const top = e.target.closest('.card-top');
+  if (!top) return;
+  const rain = top.querySelector('.emoji-rain');
+  if (rain) rain.remove();
+});
