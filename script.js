@@ -18,16 +18,13 @@ fetch('cards.json')
 function buildFilters(cards) {
   const years  = [...new Set(cards.map(c => c.year))].sort((a, b) => b - a);
   const brands = [...new Set(cards.map(c => c.brand))].sort();
-
   const yearSel  = document.getElementById('filter-year');
   const brandSel = document.getElementById('filter-brand');
-
   years.forEach(y => {
     const opt = document.createElement('option');
     opt.value = y; opt.textContent = y;
     yearSel.appendChild(opt);
   });
-
   brands.forEach(b => {
     const opt = document.createElement('option');
     opt.value = b; opt.textContent = b;
@@ -49,7 +46,6 @@ function getFiltered() {
   const year    = document.getElementById('filter-year').value;
   const brand   = document.getElementById('filter-brand').value;
   const special = document.getElementById('filter-special').value;
-
   return allCards.filter(card => {
     if (query) {
       const haystack = [card.player, card.team, card.set, card.brand, card.year, card.card_number]
@@ -77,16 +73,13 @@ function getFiltered() {
 function renderCards(cards) {
   const grid  = document.getElementById('card-grid');
   const label = document.getElementById('results-label');
-
   label.textContent = cards.length === allCards.length
     ? `Showing all ${cards.length} cards`
     : `Showing ${cards.length} of ${allCards.length} cards`;
-
   if (cards.length === 0) {
     grid.innerHTML = '<p class="no-results">No cards match your search.</p>';
     return;
   }
-
   grid.innerHTML = cards.map(cardHTML).join('');
 }
 
