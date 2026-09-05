@@ -65,6 +65,22 @@ header {
   gap: 1.5rem;
 }
 
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid var(--gold);
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
 h1 {
   font-family: 'Caveat', cursive;
   font-size: 3rem;
