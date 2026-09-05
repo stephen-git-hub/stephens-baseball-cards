@@ -268,12 +268,16 @@ main {
 
 .card-badges {
   position: absolute;
-  top: 0.75rem;
+  top: 0;
+  bottom: 0;
   right: 0.75rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   gap: 4px;
   align-items: flex-end;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .badge {
