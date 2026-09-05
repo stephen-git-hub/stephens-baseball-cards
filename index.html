@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Baseball Card Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,11 +14,8 @@
   <header>
     <div class="header-inner">
       <div class="header-title">
-        <span class="header-icon">⚾</span>
-        <div>
-          <h1>My Card Collection</h1>
-          <p class="header-sub">Baseball cards, tracked and catalogued</p>
-        </div>
+        <h1>My Baseball Card Collection</h1>
+        <p class="header-sub">A personal archive of the game's greatest players</p>
       </div>
       <div class="header-stats">
         <div class="stat">
@@ -37,12 +37,8 @@
   <main>
     <div class="controls">
       <input type="text" id="search" placeholder="Search by player, team, or set…" />
-      <select id="filter-year">
-        <option value="">All years</option>
-      </select>
-      <select id="filter-brand">
-        <option value="">All brands</option>
-      </select>
+      <select id="filter-year"><option value="">All years</option></select>
+      <select id="filter-brand"><option value="">All brands</option></select>
       <select id="filter-special">
         <option value="">All cards</option>
         <option value="rookie">Rookie cards only</option>
@@ -51,14 +47,13 @@
     </div>
 
     <p class="results-label" id="results-label"></p>
-
     <div class="card-grid" id="card-grid">
       <p class="loading">Loading collection…</p>
     </div>
   </main>
 
   <footer>
-    <p>Built with GitHub Pages &mdash; updated whenever I add new cards</p>
+    <p>Hosted on GitHub Pages &mdash; updated as the collection grows</p>
   </footer>
 
   <script src="script.js"></script>
