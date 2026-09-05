@@ -185,6 +185,7 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 1.25rem;
   overflow: visible;
+  isolation: isolate;
 }
 
 .loading, .no-results {
@@ -201,16 +202,32 @@ main {
   background: var(--parchment);
   border: 1px solid var(--sand-dark);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: visible;
   box-shadow: var(--shadow);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+/* clip inner content without clipping the scaled card */
+.card-top,
+.card-body {
+  overflow: hidden;
+}
+
+.card-top {
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.card-body {
+  border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .card:hover {
-  transform: scale(1.5);
-  box-shadow: 0 16px 48px rgba(60,20,20,0.28);
-  z-index: 10;
+  transform: scale(1.33);
+  box-shadow: 0 16px 48px rgba(60,20,20,0.30);
+  z-index: 50;
 }
 
 .card-top {
