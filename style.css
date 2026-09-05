@@ -350,3 +350,14 @@ footer {
   .header-inner { flex-direction: column; align-items: flex-start; }
   .header-stats { gap: 1.5rem; }
 }
+
+/* ── Position diamond icon ── */
+.position-diamond {
+  width: 38px;
+  height: 38px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid var(--gold);
+  background: var(--maroon-mid);
+  flex-shrink: 0;
+}
