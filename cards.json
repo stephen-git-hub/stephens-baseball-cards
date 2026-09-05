@@ -89,7 +89,7 @@
     "estimated_value": 4.00,
     "notes": "Post Cereal Box Card"
   },
-   {
+  {
     "id": 7,
     "player": "Ken Griffey Jr",
     "team": "Seattle Mariners",
@@ -103,8 +103,8 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": "Holographic"
-     },
-   {
+  },
+  {
     "id": 8,
     "player": "Carlos Baerga",
     "team": "Cleveland Indians",
@@ -118,8 +118,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
-   {
+  },
+  {
     "id": 9,
     "player": "CC Sabathia",
     "team": "New York Yankees",
@@ -133,8 +133,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Commemorative Portrait"
-     },
-   {
+  },
+  {
     "id": 10,
     "player": "Orel Hershiser",
     "team": "Cleveland Indians",
@@ -148,7 +148,7 @@
     "condition": "Like new",
     "estimated_value": 0.01,
     "notes": ""
-     },
+  },
   {
     "id": 11,
     "player": "Kirby Puckett",
@@ -163,8 +163,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
-   {
+  },
+  {
     "id": 12,
     "player": "Larry Doby",
     "team": "Cleveland Indians",
@@ -178,8 +178,8 @@
     "condition": "Mint",
     "estimated_value": 4.00,
     "notes": "Denny's Promotional Holographic"
-     },
-   {
+  },
+  {
     "id": 13,
     "player": "Darryl Strawberry",
     "team": "New York Mets",
@@ -193,7 +193,7 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": ""
-     },
+  },
   {
     "id": 14,
     "player": "David Justice",
@@ -208,7 +208,7 @@
     "condition": "Mint",
     "estimated_value": 3.00,
     "notes": "Commemorative Tomahawk Portrait"
-     },
+  },
   {
     "id": 15,
     "player": "Mike Piazza",
@@ -223,7 +223,7 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": ""
-     },
+  },
   {
     "id": 16,
     "player": "Jim Thome",
@@ -238,8 +238,8 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": "Post Cereal Box Card"
-     },
-   {
+  },
+  {
     "id": 17,
     "player": "Frank Thomas",
     "team": "Chicago White Sox",
@@ -253,8 +253,8 @@
     "condition": "Like new",
     "estimated_value": 1.00,
     "notes": ""
-     },
-   {
+  },
+  {
     "id": 18,
     "player": "Randy Johnson",
     "team": "Seattle Mariners",
@@ -268,8 +268,8 @@
     "condition": "Like new",
     "estimated_value": 0.01,
     "notes": ""
-     },
-   {
+  },
+  {
     "id": 19,
     "player": "Randy Johnson",
     "team": "Arizona Diamondbacks",
@@ -283,7 +283,7 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
+  },
   {
     "id": 20,
     "player": "Bo Jackson",
@@ -295,14 +295,14 @@
     "position": "OF",
     "rookie_card": false,
     "autograph": false,
-    "condition": "Like New",
+    "condition": "Like new",
     "estimated_value": 0.01,
     "notes": ""
-     },
+  },
   {
     "id": 21,
     "player": "Steven Kwan",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2022,
     "brand": "Topps",
     "set": "Topps Update Series 2022",
@@ -313,7 +313,7 @@
     "condition": "Mint",
     "estimated_value": 15.00,
     "notes": ""
-     },
+  },
   {
     "id": 22,
     "player": "Cal Ripken Jr.",
@@ -327,12 +327,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 5.00,
-    "notes": "Commemorative 70th Anniversiy Patch"
-     },
+    "notes": "Commemorative 70th Anniversary Patch"
+  },
   {
     "id": 23,
     "player": "Chase DeLauter",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps 2026 Series Two",
@@ -343,7 +343,7 @@
     "condition": "Mint",
     "estimated_value": 15.00,
     "notes": ""
-     },
+  },
   {
     "id": 24,
     "player": "Andres Gimenez",
@@ -358,7 +358,7 @@
     "condition": "Mint",
     "estimated_value": 3.00,
     "notes": ""
-     },
+  },
   {
     "id": 25,
     "player": "Alec Bohm",
@@ -373,7 +373,7 @@
     "condition": "Mint",
     "estimated_value": 3.00,
     "notes": ""
-     },
+  },
   {
     "id": 26,
     "player": "Parker Messick",
@@ -388,8 +388,8 @@
     "condition": "Mint",
     "estimated_value": 2.50,
     "notes": ""
-     },
-    {
+  },
+  {
     "id": 27,
     "player": "Bo Bichette",
     "team": "Toronto Blue Jays",
@@ -403,8 +403,8 @@
     "condition": "Mint",
     "estimated_value": 7.00,
     "notes": "Commemorative Portrait"
-     },
-    {
+  },
+  {
     "id": 28,
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
@@ -418,8 +418,8 @@
     "condition": "Mint",
     "estimated_value": 30.00,
     "notes": "Graded GEM MT 10 by GMA; First Dodgers HR Milestone Card"
-     },
-      {
+  },
+  {
     "id": 29,
     "player": "Randy Arozarena",
     "team": "St Louis Cardinals",
@@ -433,9 +433,9 @@
     "condition": "Mint",
     "estimated_value": 15.00,
     "notes": "Graded GEM MT 10 by PSA"
-     },
+  },
   {
-  "id": 30,
+    "id": 30,
     "player": "Kennys Vargas",
     "team": "Minnesota Twins",
     "year": 2015,
@@ -448,14 +448,14 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": ""
-     },
-    {
-  "id": 31,
+  },
+  {
+    "id": 31,
     "player": "Dave Justice",
     "team": "Atlanta Braves",
     "year": 1992,
     "brand": "Pinnacle",
-    "set": "Pinncacle",
+    "set": "Pinnacle",
     "card_number": "100",
     "position": "OF",
     "rookie_card": false,
@@ -463,9 +463,9 @@
     "condition": "Mint",
     "estimated_value": 5.00,
     "notes": ""
-     },
-    {
-  "id": 32,
+  },
+  {
+    "id": 32,
     "player": "Bobby Bonilla",
     "team": "New York Mets",
     "year": 1994,
@@ -478,10 +478,10 @@
     "condition": "Mint",
     "estimated_value": 1.00,
     "notes": "Post Cereal Box Card"
-     },
-    {
-  "id": 33,
-    "player": "Mark McGrwire",
+  },
+  {
+    "id": 33,
+    "player": "Mark McGwire",
     "team": "Oakland Athletics",
     "year": 1993,
     "brand": "Post",
@@ -493,9 +493,9 @@
     "condition": "Poor",
     "estimated_value": 0.01,
     "notes": "Post Cereal Box Card"
-     },
-    {
-  "id": 34,
+  },
+  {
+    "id": 34,
     "player": "Wade Boggs",
     "team": "Boston Red Sox",
     "year": 1992,
@@ -508,9 +508,9 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
-    {
-  "id": 35,
+  },
+  {
+    "id": 35,
     "player": "Greg Maddux",
     "team": "Chicago Cubs",
     "year": 1989,
@@ -523,9 +523,9 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
-      {
-  "id": 36,
+  },
+  {
+    "id": 36,
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2024,
@@ -538,11 +538,11 @@
     "condition": "Mint",
     "estimated_value": 20.00,
     "notes": "Graded GEM MT 10 by WCG"
-     },
-      {
-  "id": 37,
+  },
+  {
+    "id": 37,
     "player": "Logan Allen",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -552,12 +552,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 38,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 38,
     "player": "Gabriel Arias",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -567,12 +567,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 39,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 39,
     "player": "Tanner Bibee",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -582,27 +582,27 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 1.00,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 40,
-    "player": "Joes Cantillo",
-    "team": "Cleveland Gaurdians",
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 40,
+    "player": "Jose Cantillo",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
-    "set": "Topps Seires Two",
+    "set": "Topps Series Two",
     "card_number": "691",
     "position": "P",
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 41,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 41,
     "player": "Slade Cecconi",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -612,12 +612,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 42,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 42,
     "player": "Cleveland Takes Flight",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -627,12 +627,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 43,
-    "player": "Cleveland Gaurdians",
-    "team": "Cleveland Gaurdians",
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 43,
+    "player": "Cleveland Guardians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -642,12 +642,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 44,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 44,
     "player": "Petey Halpin",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -657,12 +657,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-      {
-  "id": 45,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 45,
     "player": "C.J Kayfus",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -672,12 +672,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.50,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 46,
+    "id": 46,
     "player": "Austin Hedges",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -687,12 +687,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 47,
+    "id": 47,
     "player": "Steven Kwan",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -702,12 +702,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 1.00,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 48,
+    "id": 48,
     "player": "Ben Lively",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -717,12 +717,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 49,
+    "id": 49,
     "player": "Kyle Manzardo",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -732,12 +732,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 50,
+    "id": 50,
     "player": "Angel Martinez",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -747,12 +747,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 51,
+    "id": 51,
     "player": "Bo Naylor",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -762,12 +762,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 52,
+    "id": 52,
     "player": "Jose Ramirez",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -777,12 +777,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 5.00,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 53,
+    "id": 53,
     "player": "Brayan Rocchio",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -792,12 +792,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
+    "notes": "Guardians 2026 Team Set"
+  },
   {
-  "id": 54,
+    "id": 54,
     "player": "Daniel Schneemann",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -807,12 +807,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-    {
-  "id": 56,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 55,
     "player": "Cade Smith",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -822,12 +822,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-    {
-  "id": 57,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 56,
     "player": "George Valera",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series Two",
@@ -837,12 +837,12 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.50,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-    {
-  "id": 58,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 57,
     "player": "Gavin Williams",
-    "team": "Cleveland Gaurdians",
+    "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -852,15 +852,15 @@
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
-    "notes": "Gaurdians 2026 Team Set"
-     },
-    {
-  "id": 59,
+    "notes": "Guardians 2026 Team Set"
+  },
+  {
+    "id": 58,
     "player": "Shogo Akiyama",
     "team": "Cincinnati Reds",
     "year": 2020,
     "brand": "Topps",
-    "set": "Pominent Baseball Players",
+    "set": "Prominent Baseball Players",
     "card_number": "TR-14",
     "position": "OF",
     "rookie_card": true,
@@ -868,9 +868,9 @@
     "condition": "Mint",
     "estimated_value": 1.00,
     "notes": "Commemorative Portrait"
-     },
-    {
-  "id": 60,
+  },
+  {
+    "id": 59,
     "player": "Aristides Aquino",
     "team": "Cincinnati Reds",
     "year": 2021,
@@ -883,9 +883,9 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Future Stars"
-     },
-    {
-  "id": 61,
+  },
+  {
+    "id": 60,
     "player": "Shane Bieber",
     "team": "Cleveland Indians",
     "year": 2021,
@@ -898,11 +898,11 @@
     "condition": "Mint",
     "estimated_value": 1.00,
     "notes": "League Leaders"
-     },
-    {
-  "id": 62,
-    "player": "Jeromy Burnitz",
-    "team": "Milkwaukee Brewers",
+  },
+  {
+    "id": 61,
+    "player": "Jeremy Burnitz",
+    "team": "Milwaukee Brewers",
     "year": 2002,
     "brand": "Topps",
     "set": "Topps Series One",
@@ -913,9 +913,9 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Post Cereal Box Card"
-     },
-    {
-  "id": 63,
+  },
+  {
+    "id": 62,
     "player": "Drew Butera",
     "team": "Colorado Rockies",
     "year": 2020,
@@ -928,14 +928,14 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
-    {
-  "id": 64,
+  },
+  {
+    "id": 63,
     "player": "Miguel Cabrera",
     "team": "Detroit Tigers",
     "year": 2021,
     "brand": "Topps",
-    "set": "Topps Seires One",
+    "set": "Topps Series One",
     "card_number": "291",
     "position": "DH",
     "rookie_card": false,
@@ -943,9 +943,9 @@
     "condition": "Mint",
     "estimated_value": 1.00,
     "notes": ""
-     },
-    {
-  "id": 65,
+  },
+  {
+    "id": 64,
     "player": "Kristian Campbell",
     "team": "Boston Red Sox",
     "year": 2025,
@@ -958,9 +958,9 @@
     "condition": "Mint",
     "estimated_value": 1.00,
     "notes": "Holographic"
-     },
-    {
-  "id": 66,
+  },
+  {
+    "id": 65,
     "player": "Matt Chapman",
     "team": "San Francisco Giants",
     "year": 2025,
@@ -973,652 +973,35 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Holographic"
-     },
-    {
-  "id": 67,
+  },
+  {
+    "id": 66,
     "player": "Robinson Chirinos",
     "team": "Texas Rangers",
     "year": 2020,
     "brand": "Topps",
     "set": "Topps Update Series",
     "card_number": "U-116",
-    "position": "c",
+    "position": "C",
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": ""
-     },
+  },
   {
-  "id": 68,
+    "id": 67,
     "player": "Gerrit Cole",
     "team": "New York Yankees",
     "year": 2021,
     "brand": "Topps",
-    "set": "Topps Seires One",
+    "set": "Topps Series One",
     "card_number": "95",
     "position": "P",
     "rookie_card": false,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 0.01,
+    "estimated_value": 2.00,
     "notes": ""
-     },
-   {
-  "id": 69,
-    "player": "Gerrit Cole",
-    "team": "New York Yankees",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps 70 Year Anniversery",
-    "card_number": "70YT-16",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-   {
-  "id": 70,
-    "player": "Yu Darvish",
-    "team": "Chicago Cubs",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Seires One",
-    "card_number": "60",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-   {
-  "id": 71,
-    "player": "Santiago Espinal",
-    "team": "Toronto Blue Jays",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Seires One",
-    "card_number": "234",
-    "position": "SS",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-   {
-  "id": 72,
-    "player": "Dane Dunning",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Seires One",
-    "card_number": "231",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-   {
-  "id": 73,
-    "player": "Todd Frazier",
-    "team": "Texas Rangers",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-73",
-    "position": "3B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 74,
-    "player": "Sonny Gray",
-    "team": "Cincinnati Reds",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "T52-47",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 75,
-    "player": "Zack Greinke",
-    "team": "Houston Astros",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-87",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 76,
-    "player": "Trent Grisham",
-    "team": "San Diego Padres",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "249",
-    "position": "OF",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": "Future Stars"
-     },
-    {
-  "id": 77,
-    "player": "Ozzie Guillen",
-    "team": "Chicago White Sox",
-    "year": 1991,
-    "brand": "Donruss",
-    "set": "Donruss 91",
-    "card_number": "577",
-    "position": "SS",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 78,
-    "player": "Rickey Henderson",
-    "team": "New York Yankees",
-    "year": 1989,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "F",
-    "position": "OF",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Fair",
-    "estimated_value": 0.01,
-    "notes": "775th Stolen Base Milestone Card"
-     },
-    {
-  "id": 79,
-    "player": "Orel Hershiser",
-    "team": "Los Angeles Dodgers",
-    "year": 1991,
-    "brand": "Leaf",
-    "set": "Studio 91",
-    "card_number": "183",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Fair",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 80,
-    "player": "Orel Hershiser",
-    "team": "Cleveland Indians",
-    "year": 1997,
-    "brand": "Score",
-    "set": "Score",
-    "card_number": "12",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-    {
-  "id": 81,
-    "player": "Orel Hershiser",
-    "team": "Cleveland Indians",
-    "year": 1997,
-    "brand": "Pinnacle",
-    "set": "Pinnacle 1997",
-    "card_number": "121",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-   {
-  "id": 82,
-    "player": "Orel Hershiser",
-    "team": "Cleveland Indians",
-    "year": 1998,
-    "brand": "Upper Deck",
-    "set": "Upper Deck",
-    "card_number": "71",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Like New",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-   {
-  "id": 83,
-    "player": "Codi Heuer",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "311",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-   {
-  "id": 84,
-    "player": "Daniel Johnson",
-    "team": "Cleveland Indians",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "103",
-    "position": "OF",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },
-   {
-  "id": 85,
-    "player": "Randy Johnson",
-    "team": "Seattle Mariners",
-    "year": 1991,
-    "brand": "Fleer",
-    "set": "Fleer 91",
-    "card_number": "455",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-    {
-  "id": 86,
-    "player": "James Kaprielian",
-    "team": "Oakland Athletics",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "167",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-    {
-  "id": 87,
-    "player": "Legends Unite",
-    "team": "New York Yankees",
-    "year": 2025,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "US86",
-    "position": "NA",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "Judge Ties Ruth With 321 HRs In 1000 Games Milestone Card"
-     },
-    {
-  "id": 88,
-    "player": "Francisco Lindor",
-    "team": "Cleveland Indians",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "T52-10",
-    "position": "SS",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-    {
-  "id": 89,
-    "player": "Manny Machado",
-    "team": "San Diego Padres",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "T52-24",
-    "position": "3B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-    {
-  "id": 90,
-    "player": "Nick Madrigal",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "197",
-    "position": "2B",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },
-  {
-  "id": 55,
-    "player": "Humberto Mejia",
-    "team": "Arizona Diamondbacks",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "139",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-    {
-  "id": 91,
-    "player": "Andrew McCutchen",
-    "team": "Pittsburgh Pirates",
-    "year": 2025,
-    "brand": "Topps",
-    "set": "Stars of MLB",
-    "card_number": "SMLB-73",
-    "position": "OF",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-    {
-  "id": 92,
-    "player": "Andrew McCutchen",
-    "team": "Pittsburgh Pirates",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-266",
-    "position": "OF",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 93,
-    "player": "Yoan Moncada",
-    "team": "Chicago White Sox",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "85TB-15",
-    "position": "3B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },  
-  {
-  "id": 94,
-    "player": "Charles Nagy",
-    "team": "Cleveland Indians",
-    "year": 1994,
-    "brand": "Upper Deck",
-    "set": "Upper Deck",
-    "card_number": "394",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },  
-  {
-  "id": 95,
-    "player": "Nick Neidert",
-    "team": "Miami Marlins",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "324",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 96,
-    "player": "David Ortiz",
-    "team": "Boston Red Sox",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-62",
-    "position": "DH",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "2010 Home Run Derby Milestone Card"
-     },  
-  {
-  "id": 96,
-    "player": "Marcel Ozuna",
-    "team": "Atlanta Braves",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "220",
-    "position": "OF",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "League Leaders"
-     },  
-  {
-  "id": 97,
-    "player": "Cristian Pache",
-    "team": "Atlanta Braves",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "187",
-    "position": "2B",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 98,
-    "player": "Isaac Paredes",
-    "team": "Detroit Tigers",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "197",
-    "position": "2B",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 99,
-    "player": "Nick Madrigal",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "65",
-    "position": "3B",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 100,
-    "player": "Kevin Pillar",
-    "team": "Boston Red Sox",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-271",
-    "position": "3B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "Holographic"
-     },  
-  {
-  "id": 101,
-    "player": "Albert Pujols",
-    "team": "Los Angeles Angels",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "197",
-    "position": "2B",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 102,
-    "player": "Albert Pujos",
-    "team": "Los Angeles Angels",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-267",
-    "position": "1B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "2009 All Start Game Milestone Card"
-     },  
-  {
-  "id": 103,
-    "player": "Albert Pujols",
-    "team": "St. Louis Cardinals",
-    "year": 2025,
-    "brand": "Topps",
-    "set": "Topps Most Valuable Player 2009",
-    "card_number": "MV-23",
-    "position": "1B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "Most Valuable Player 2009 Milestone Card"
-     },  
-  {
-  "id": 104,
-    "player": "Cal Ripken Jr.",
-    "team": "Baltimore Orioles",
-    "year": 1998,
-    "brand": "Donruss",
-    "set": "Donruss Elite",
-    "card_number": "6",
-    "position": "3B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     },  
-  {
-  "id": 105,
-    "player": "Luis Robert",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps",
-    "card_number": "197",
-    "position": "2B",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },  
-  {
-  "id": 106,
-    "player": "Antonio Senzatela",
-    "team": "Colorado Rockies",
-    "year": 2020,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "U-40",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": ""
-     },  
-  {
-  "id": 107,
-    "player": "Gavin Sheets",
-    "team": "San Diego Padres",
-    "year": 2025,
-    "brand": "Topps",
-    "set": "Topps Update Series",
-    "card_number": "US225",
-    "position": "DH",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": ""
-     }  
+  }
 ]
-  
-
