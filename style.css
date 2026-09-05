@@ -184,6 +184,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 1.25rem;
+  overflow: visible;
 }
 
 .loading, .no-results {
@@ -202,12 +203,14 @@ main {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(60,20,20,0.14);
+  transform: scale(1.5);
+  box-shadow: 0 16px 48px rgba(60,20,20,0.28);
+  z-index: 10;
 }
 
 .card-top {
@@ -369,4 +372,27 @@ footer {
 /* When card has both RC + Auto, push position icon to bottom */
 .card-badges.dual-badge {
   justify-content: flex-end;
+}
+
+/* ── Emoji rain ── */
+.emoji-rain {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 0;
+}
+
+.emoji-drop {
+  position: absolute;
+  top: -1.5em;
+  font-size: 14px;
+  animation: fall linear forwards;
+  opacity: 0.85;
+  user-select: none;
+}
+
+@keyframes fall {
+  0%   { transform: translateY(0) rotate(0deg);   opacity: 0.85; }
+  100% { transform: translateY(120px) rotate(360deg); opacity: 0; }
 }
