@@ -88,7 +88,24 @@ function cardHTML(card) {
   const rcBadge   = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
   const autoBadge  = card.autograph   ? '<span class="badge badge-auto">Auto</span>' : '';
   const badges     = rcBadge + autoBadge;
-  const dualBadge  = card.rookie_card && card.autograph ? ' dual-badge' : '';
+  const isDual     = card.rookie_card && card.autograph;
+  const dualBadge  = isDual ? ' dual-badge' : '';
+
+  const diamondSVG = (cls) => `<svg class="${cls}" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="22,4 40,22 22,40 4,22" fill="#c8b98a" opacity="0.9"/>
+            <polygon points="22,4 40,22 22,40 4,22" fill="none" stroke="#8b6a3a" stroke-width="1.2"/>
+            <line x1="22" y1="4"  x2="40" y2="22" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
+            <line x1="40" y1="22" x2="22" y2="40" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
+            <line x1="22" y1="40" x2="4"  y2="22" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
+            <line x1="4"  y1="22" x2="22" y2="4"  stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
+            <rect x="19.5" y="1.5"  width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 4)"/>
+            <rect x="37.5" y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 40 22)"/>
+            <rect x="19.5" y="37.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 40)"/>
+            <rect x="1.5"  y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 4 22)"/>
+            <text x="22" y="27" text-anchor="middle" font-family="Caveat, cursive" font-size="11" font-weight="700" fill="#6b1a1a">${card.position}</text>
+          </svg>`;
+
+  const extraDiamond = isDual ? diamondSVG('dual-diamond') : '';
 
   const value = card.estimated_value
     ? '$' + card.estimated_value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
@@ -109,21 +126,10 @@ function cardHTML(card) {
             <div class="card-team">${card.team}</div>
           </div>
         </div>
+        ${extraDiamond}
         <div class="card-badges${dualBadge}">
           ${badges}
-          <svg class="position-diamond" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="22,4 40,22 22,40 4,22" fill="#c8b98a" opacity="0.9"/>
-            <polygon points="22,4 40,22 22,40 4,22" fill="none" stroke="#8b6a3a" stroke-width="1.2"/>
-            <line x1="22" y1="4"  x2="40" y2="22" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
-            <line x1="40" y1="22" x2="22" y2="40" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
-            <line x1="22" y1="40" x2="4"  y2="22" stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
-            <line x1="4"  y1="22" x2="22" y2="4"  stroke="#8b6a3a" stroke-width="0.7" opacity="0.5"/>
-            <rect x="19.5" y="1.5"  width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 4)"/>
-            <rect x="37.5" y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 40 22)"/>
-            <rect x="19.5" y="37.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 40)"/>
-            <rect x="1.5"  y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 4 22)"/>
-            <text x="22" y="27" text-anchor="middle" font-family="Caveat, cursive" font-size="11" font-weight="700" fill="#6b1a1a">${card.position}</text>
-          </svg>
+          ${diamondSVG("position-diamond")}
         </div>
       </div>
       <div class="card-body">
