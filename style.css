@@ -1,28 +1,39 @@
-/* ── Reset & base ── */
+/* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:       #1a5c2a;
-  --green-light: #e8f5ec;
-  --green-mid:   #2d7a3a;
-  --tan:         #f5f0e8;
-  --tan-dark:    #e8e0d0;
-  --leather:     #8b5e3c;
-  --cream:       #fdf9f3;
-  --text:        #1c1c1a;
-  --text-muted:  #6b6760;
-  --border:      #ddd8cc;
-  --white:       #ffffff;
-  --red:         #c0392b;
-  --gold:        #b8860b;
-  --radius:      10px;
-  --shadow:      0 2px 8px rgba(0,0,0,0.08);
+  /* Sandy, chalky parchment palette */
+  --sand:        #e8dfc8;
+  --sand-light:  #f2ead6;
+  --sand-dark:   #d4c9b0;
+  --parchment:   #f7f2e6;
+
+  /* Maroon / dark red replacing all greens */
+  --maroon:      #6b1a1a;
+  --maroon-mid:  #8b2424;
+  --maroon-light:#a83030;
+  --maroon-pale: #f5eaea;
+
+  /* Ink & text */
+  --ink:         #2a1f1f;
+  --ink-mid:     #5a4040;
+  --ink-muted:   #8a7070;
+
+  /* Accents */
+  --gold:        #9a7d3a;
+  --cream:       #fdf8ef;
+
+  --radius: 8px;
+  --shadow: 0 2px 10px rgba(60,20,20,0.10);
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', serif;
-  background: var(--cream);
-  color: var(--text);
+  font-family: 'Lora', Georgia, serif;
+  background: var(--sand);
+  /* Subtle noise texture via repeating gradient */
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  color: var(--ink);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,80 +41,82 @@ body {
 
 /* ── Header ── */
 header {
-  background: var(--green);
-  color: var(--white);
-  padding: 1.5rem 2rem;
-  border-bottom: 4px solid var(--leather);
+  background: var(--maroon);
+  /* Faint diagonal line texture for a worn feel */
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255,255,255,0.03) 0px,
+    rgba(255,255,255,0.03) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+  color: var(--sand-light);
+  padding: 2rem 2.5rem 1.75rem;
+  border-bottom: 4px solid var(--gold);
 }
 
 .header-inner {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.header-title {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.header-icon {
-  font-size: 2.5rem;
-  line-height: 1;
-}
-
 h1 {
-  font-size: 1.75rem;
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--white);
+  line-height: 1;
+  color: var(--sand-light);
+  letter-spacing: 0.01em;
+  /* Slight text-shadow for chalky feel */
+  text-shadow: 1px 2px 0px rgba(0,0,0,0.25), 0 0 20px rgba(232,223,200,0.15);
 }
 
 .header-sub {
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.65);
+  color: rgba(232,223,200,0.6);
   font-style: italic;
-  margin-top: 2px;
-  font-family: Arial, sans-serif;
+  margin-top: 4px;
+  letter-spacing: 0.03em;
 }
 
 .header-stats {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
+  padding-bottom: 4px;
 }
 
-.stat {
-  text-align: center;
-}
+.stat { text-align: center; }
 
 .stat-num {
   display: block;
-  font-size: 1.6rem;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1;
-  color: #a8d8b0;
+  color: var(--sand-light);
 }
 
 .stat-label {
   display: block;
-  font-size: 0.7rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.65rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.55);
-  margin-top: 3px;
-  font-family: Arial, sans-serif;
+  letter-spacing: 0.1em;
+  color: rgba(232,223,200,0.5);
+  margin-top: 2px;
 }
 
 /* ── Main ── */
 main {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 3rem;
   flex: 1;
   width: 100%;
 }
@@ -114,17 +127,21 @@ main {
   gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--sand-light);
+  border: 1px solid var(--sand-dark);
+  border-radius: var(--radius);
 }
 
 .controls input,
 .controls select {
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 0.875rem;
-  padding: 0.55rem 0.9rem;
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--white);
-  color: var(--text);
+  padding: 0.5rem 0.85rem;
+  border: 1.5px solid var(--sand-dark);
+  border-radius: 6px;
+  background: var(--parchment);
+  color: var(--ink);
   outline: none;
   transition: border-color 0.15s;
 }
@@ -134,33 +151,28 @@ main {
 
 .controls input:focus,
 .controls select:focus {
-  border-color: var(--green);
+  border-color: var(--maroon);
 }
 
 .results-label {
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--ink-muted);
   margin-bottom: 1rem;
+  padding-left: 2px;
+  font-style: italic;
 }
 
 /* ── Card grid ── */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 1.25rem;
 }
 
-.loading {
-  font-family: Arial, sans-serif;
-  color: var(--text-muted);
-  font-style: italic;
-  grid-column: 1/-1;
-}
-
-.no-results {
-  font-family: Arial, sans-serif;
-  color: var(--text-muted);
+.loading, .no-results {
+  font-family: 'Source Sans 3', sans-serif;
+  color: var(--ink-muted);
   font-style: italic;
   grid-column: 1/-1;
   padding: 2rem 0;
@@ -169,8 +181,8 @@ main {
 
 /* ── Individual card ── */
 .card {
-  background: var(--white);
-  border: 1.5px solid var(--border);
+  background: var(--parchment);
+  border: 1px solid var(--sand-dark);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -179,37 +191,48 @@ main {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 24px rgba(60,20,20,0.14);
 }
 
 .card-top {
-  background: var(--tan);
-  border-bottom: 1.5px solid var(--tan-dark);
-  padding: 1rem 1rem 0.75rem;
+  background: var(--maroon);
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255,255,255,0.03) 0px,
+    rgba(255,255,255,0.03) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+  padding: 0.9rem 1rem 0.75rem;
   position: relative;
+  border-bottom: 2px solid var(--gold);
 }
 
 .card-year-brand {
-  font-family: Arial, sans-serif;
-  font-size: 0.7rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin-bottom: 4px;
+  letter-spacing: 0.1em;
+  color: rgba(232,223,200,0.6);
+  margin-bottom: 3px;
 }
 
 .card-player {
-  font-size: 1.15rem;
+  font-family: 'Caveat', cursive;
+  font-size: 1.45rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: var(--green);
+  line-height: 1.1;
+  color: var(--sand-light);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  padding-right: 50px;
 }
 
 .card-team {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78rem;
+  color: rgba(232,223,200,0.6);
   margin-top: 2px;
+  font-style: italic;
 }
 
 .card-badges {
@@ -223,17 +246,17 @@ main {
 }
 
 .badge {
-  font-family: Arial, sans-serif;
-  font-size: 0.65rem;
-  font-weight: 700;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
-.badge-rc   { background: var(--red);    color: #fff; }
-.badge-auto { background: var(--gold);   color: #fff; }
+.badge-rc   { background: var(--gold);         color: #fff; }
+.badge-auto { background: rgba(255,255,255,0.15); color: var(--sand-light); border: 1px solid rgba(232,223,200,0.4); }
 
 .card-body {
   padding: 0.85rem 1rem;
@@ -243,53 +266,56 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 4px 0;
-  border-bottom: 1px solid var(--tan);
-  font-size: 0.82rem;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--sand);
+  font-size: 0.83rem;
 }
 
 .card-row:last-child { border-bottom: none; }
 
 .row-label {
-  font-family: Arial, sans-serif;
-  color: var(--text-muted);
+  font-family: 'Source Sans 3', sans-serif;
+  color: var(--ink-muted);
   font-size: 0.75rem;
 }
 
 .row-value {
   font-weight: 600;
-  color: var(--text);
+  color: var(--ink);
   text-align: right;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
-.value-money { color: var(--green-mid); }
+.value-money { color: var(--maroon-mid); }
 
 .card-notes {
   margin-top: 0.6rem;
-  padding-top: 0.6rem;
-  border-top: 1px solid var(--tan);
-  font-size: 0.78rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--sand-dark);
+  font-size: 0.77rem;
   font-style: italic;
-  color: var(--text-muted);
-  font-family: Arial, sans-serif;
+  color: var(--ink-muted);
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.5;
 }
 
 /* ── Footer ── */
 footer {
-  background: var(--tan);
-  border-top: 1.5px solid var(--border);
+  background: var(--maroon);
+  border-top: 3px solid var(--gold);
   text-align: center;
   padding: 1rem;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 0.78rem;
-  color: var(--text-muted);
+  color: rgba(232,223,200,0.5);
+  letter-spacing: 0.03em;
 }
 
 /* ── Responsive ── */
 @media (max-width: 600px) {
-  header { padding: 1.25rem 1rem; }
-  main   { padding: 1.25rem 1rem; }
+  header  { padding: 1.5rem 1rem 1.25rem; }
+  main    { padding: 1.25rem 1rem 2rem; }
+  h1      { font-size: 2.25rem; }
   .header-inner { flex-direction: column; align-items: flex-start; }
-  .header-stats { gap: 1.25rem; }
-  h1 { font-size: 1.4rem; }
+  .header-stats { gap: 1.5rem; }
 }
