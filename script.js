@@ -85,10 +85,10 @@ function renderCards(cards) {
 
 // ── Build HTML for a single card ──
 function cardHTML(card) {
-  const badges = [
-    card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '',
-    card.autograph   ? '<span class="badge badge-auto">Auto</span>' : ''
-  ].join('');
+  const rcBadge   = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
+  const autoBadge  = card.autograph   ? '<span class="badge badge-auto">Auto</span>' : '';
+  const badges     = rcBadge + autoBadge;
+  const dualBadge  = card.rookie_card && card.autograph ? ' dual-badge' : '';
 
   const value = card.estimated_value
     ? '$' + card.estimated_value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
@@ -109,7 +109,7 @@ function cardHTML(card) {
             <div class="card-team">${card.team}</div>
           </div>
         </div>
-        <div class="card-badges">
+        <div class="card-badges${dualBadge}">
           ${badges}
           <svg class="position-diamond" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
             <polygon points="22,4 40,22 22,40 4,22" fill="#c8b98a" opacity="0.9"/>
@@ -122,7 +122,7 @@ function cardHTML(card) {
             <rect x="37.5" y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 40 22)"/>
             <rect x="19.5" y="37.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 40)"/>
             <rect x="1.5"  y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 4 22)"/>
-            <text x="22" y="27" text-anchor="middle" font-family="Caveat, cursive" font-size="9" font-weight="700" fill="#6b1a1a">${card.position}</text>
+            <text x="22" y="27" text-anchor="middle" font-family="Caveat, cursive" font-size="11" font-weight="700" fill="#6b1a1a">${card.position}</text>
           </svg>
         </div>
       </div>
