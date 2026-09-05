@@ -122,7 +122,7 @@ function cardHTML(card) {
             <rect x="37.5" y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 40 22)"/>
             <rect x="19.5" y="37.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 22 40)"/>
             <rect x="1.5"  y="19.5" width="5" height="5" rx="0.8" fill="#f5efe0" stroke="#8b6a3a" stroke-width="0.8" transform="rotate(45 4 22)"/>
-            <text x="22" y="26" text-anchor="middle" font-family="Source Sans 3, Arial, sans-serif" font-size="7" font-weight="600" fill="#6b1a1a">${card.position}</text>
+            <text x="22" y="27" text-anchor="middle" font-family="Caveat, cursive" font-size="9" font-weight="700" fill="#6b1a1a">${card.position}</text>
           </svg>
         </div>
       </div>
