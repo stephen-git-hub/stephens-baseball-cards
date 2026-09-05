@@ -386,9 +386,33 @@ footer {
   flex-shrink: 0;
 }
 
-/* When card has both RC + Auto, push position icon to bottom */
+/* When card has both RC + Auto, stack badges only in header, diamond moves outside */
 .card-badges.dual-badge {
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-top: 0.4rem;
+}
+
+.card-badges.dual-badge .position-diamond {
+  display: none;
+}
+
+/* Diamond placed below header for dual-badge cards */
+.dual-diamond {
+  position: absolute;
+  right: 0.75rem;
+  top: calc(100% + 4px);
+  z-index: 5;
+  width: 38px;
+  height: 38px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid var(--gold);
+  background: var(--maroon-mid);
+  flex-shrink: 0;
+}
+
+.card-top {
+  position: relative;
 }
 
 /* ── Emoji rain ── */
