@@ -56,6 +56,7 @@ function getFiltered() {
     if (brand   && card.brand         !== brand)  return false;
     if (special === 'rookie' && !card.rookie_card) return false;
     if (special === 'auto'   && !card.autograph)   return false;
+    if (special === 'relic'  && !card.relic_card)  return false;
     return true;
   });
 }
@@ -85,13 +86,14 @@ function renderCards(cards) {
 
 // ── Build HTML for a single card ──
 function cardHTML(card) {
-  const rcBadge  = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
-  const autoBadge = card.autograph  ? '<span class="badge badge-auto">Auto</span>' : '';
-  const isDual    = card.rookie_card && card.autograph;
-  const dualBadge = isDual ? ' dual-badge' : '';
-  // Wrap badges in a column div so they stack vertically left of the diamond
-  const badgeStack = (rcBadge || autoBadge)
-    ? '<div class="badge-stack">' + rcBadge + autoBadge + '</div>'
+  const rcBadge    = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
+  const autoBadge  = card.autograph   ? '<span class="badge badge-auto">Auto</span>' : '';
+  const relicBadge = card.relic_card  ? '<span class="badge badge-relic">REL</span>' : '';
+  const isDual     = card.rookie_card && card.autograph;
+  const dualBadge  = isDual ? ' dual-badge' : '';
+  // Wrap badges in a column div so they stack vertically left of the logo
+  const badgeStack = (rcBadge || autoBadge || relicBadge)
+    ? '<div class="badge-stack">' + rcBadge + autoBadge + relicBadge + '</div>'
     : '';
 
 
