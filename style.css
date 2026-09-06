@@ -310,8 +310,9 @@ main {
   border-radius: 3px;
 }
 
-.badge-rc   { background: var(--gold);         color: #fff; }
-.badge-auto { background: rgba(255,255,255,0.15); color: var(--sand-light); border: 1px solid rgba(232,223,200,0.4); }
+.badge-rc    { background: var(--gold);         color: #fff; }
+.badge-auto  { background: rgba(255,255,255,0.15); color: var(--sand-light); border: 1px solid rgba(232,223,200,0.4); }
+.badge-relic { background: #3a6b5c; color: #e8f5f0; }
 
 /* Stack RC and AUTO vertically before the diamond */
 .card-badges {
