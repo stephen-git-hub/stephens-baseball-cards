@@ -249,7 +249,7 @@ main {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding-right: 50px;
+  padding-right: 110px;
 }
 
 .card-logo {
@@ -293,12 +293,10 @@ main {
   bottom: 0;
   right: 0.75rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   gap: 4px;
-  align-items: flex-end;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .badge {
@@ -313,6 +311,24 @@ main {
 
 .badge-rc   { background: var(--gold);         color: #fff; }
 .badge-auto { background: rgba(255,255,255,0.15); color: var(--sand-light); border: 1px solid rgba(232,223,200,0.4); }
+
+/* Stack RC and AUTO vertically before the diamond */
+.card-badges {
+  flex-wrap: nowrap;
+}
+
+.card-badges .badge {
+  align-self: center;
+}
+
+/* When both badges present, wrap them in a mini column */
+.card-badges.dual-badge {
+  gap: 3px;
+}
+
+.card-badges.dual-badge .badge {
+  display: block;
+}
 
 .card-body {
   padding: 0.85rem 1rem;
@@ -387,13 +403,9 @@ footer {
   flex-shrink: 0;
 }
 
-/* Dual-badge: RC + AUTO + diamond all stack in right column,
-   diamond overflows slightly below the header border */
+/* Dual-badge: same row layout as single badge */
 .card-badges.dual-badge {
-  justify-content: flex-start;
-  padding-top: 0.4rem;
-  padding-bottom: 0;
-  bottom: -20px;
+  justify-content: flex-end;
 }
 
 /* ── Emoji rain ── */
@@ -417,4 +429,12 @@ footer {
 @keyframes fall {
   0%   { transform: translateY(0) rotate(0deg);   opacity: 0.85; }
   100% { transform: translateY(120px) rotate(360deg); opacity: 0; }
+}
+
+/* Vertical stack of RC/AUTO badges sitting left of the diamond */
+.badge-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-end;
 }
