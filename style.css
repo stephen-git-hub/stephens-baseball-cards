@@ -260,6 +260,7 @@ main {
   border: 1px solid var(--gold);
   flex-shrink: 0;
   display: block;
+  align-self: center;
 }
 
 .card-year-brand {
