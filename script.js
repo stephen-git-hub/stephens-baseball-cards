@@ -85,11 +85,14 @@ function renderCards(cards) {
 
 // ── Build HTML for a single card ──
 function cardHTML(card) {
-  const rcBadge   = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
-  const autoBadge  = card.autograph   ? '<span class="badge badge-auto">Auto</span>' : '';
-  const badges     = rcBadge + autoBadge;
-  const isDual     = card.rookie_card && card.autograph;
-  const dualBadge  = isDual ? ' dual-badge' : '';
+  const rcBadge  = card.rookie_card ? '<span class="badge badge-rc">RC</span>' : '';
+  const autoBadge = card.autograph  ? '<span class="badge badge-auto">Auto</span>' : '';
+  const isDual    = card.rookie_card && card.autograph;
+  const dualBadge = isDual ? ' dual-badge' : '';
+  // Wrap badges in a column div so they stack vertically left of the diamond
+  const badgeStack = (rcBadge || autoBadge)
+    ? '<div class="badge-stack">' + rcBadge + autoBadge + '</div>'
+    : '';
 
 
   const value = card.estimated_value
@@ -112,7 +115,7 @@ function cardHTML(card) {
           </div>
         </div>
         <div class="card-badges${dualBadge}">
-          ${badges}
+          ${badgeStack}
           <svg class="position-diamond" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
             <polygon points="22,4 40,22 22,40 4,22" fill="#c8b98a" opacity="0.9"/>
             <polygon points="22,4 40,22 22,40 4,22" fill="none" stroke="#8b6a3a" stroke-width="1.2"/>
