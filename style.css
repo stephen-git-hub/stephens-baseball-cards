@@ -29,10 +29,11 @@
 
 body {
   font-family: 'Lora', Georgia, serif;
-  background: var(--sand);
-  /* Subtle noise texture via repeating gradient */
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  background-color: var(--sand);
+  background-image: url('parchment.jpg');
+  background-repeat: repeat;
+  background-size: 600px auto;
+  background-attachment: fixed;
   color: var(--ink);
   min-height: 100vh;
   display: flex;
@@ -145,7 +146,7 @@ main {
   flex-wrap: wrap;
   margin-bottom: 1.25rem;
   padding: 1rem 1.25rem;
-  background: var(--sand-light);
+  background: rgba(242,234,214,0.80);
   border: 1px solid var(--sand-dark);
   border-radius: var(--radius);
 }
@@ -200,7 +201,7 @@ main {
 
 /* ── Individual card ── */
 .card {
-  background: var(--parchment);
+  background: rgba(253,248,239,0.82);
   border: 1px solid var(--sand-dark);
   border-radius: var(--radius);
   overflow: visible;
