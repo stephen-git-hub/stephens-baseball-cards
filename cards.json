@@ -1904,6 +1904,22 @@
     "relic_card": false
   },
   {
+    "id": 115,
+    "player": "Omar Vizquel",
+    "team": "Seattle Mariners",
+    "year": 1989,
+    "brand": "Topps",
+    "set": "Topps",
+    "card_number": "122T",
+    "position": "SS",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "Mint",
+    "estimated_value": 17.00,
+    "notes": "Rated GEM MT 10, Authentic Autograph, by Beckett",
+    "relic_card": false
+  },
+  {
     "id": 121,
     "player": "Mitch White",
     "team": "Los Angeles Dodgers",
