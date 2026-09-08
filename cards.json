@@ -1440,6 +1440,22 @@
     "relic_card": false
   },
   {
+    "id": 129,
+    "player": "Erik Rivera",
+    "team": "Los Angeles Angels",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps Certified Autograph Issue",
+    "card_number": "TOP-39",
+    "position": "OF/P",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "Mint",
+    "estimated_value": 10.00,
+    "notes": "",
+    "relic_card": false
+  },
+  {
     "id": 91,
     "player": "Luis Robert",
     "team": "Chicago White Sox",
@@ -1472,6 +1488,22 @@
     "relic_card": false
   },
   {
+    "id": 127,
+    "player": "Adley Rutschman",
+    "team": "Baltimore Orioles",
+    "year": 2023,
+    "brand": "Topps",
+    "set": "Topps Update Action Stars",
+    "card_number": "AS-1",
+    "position": "C",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 5.00,
+    "notes": "Graded NM-MT 8 by PSA",
+    "relic_card": false
+  },
+  {
     "id": 93,
     "player": "CC Sabathia",
     "team": "New York Yankees",
@@ -1485,6 +1517,22 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Commemorative Portrait",
+    "relic_card": false
+  },
+  {
+    "id": 130,
+    "player": "Matt Scheffler",
+    "team": "Seattle Mariners",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps 1st Bowman Chrome.",
+    "card_number": "CPA-MSC",
+    "position": "C",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "Mint",
+    "estimated_value": 5.00,
+    "notes": "",
     "relic_card": false
   },
   {
@@ -1949,6 +1997,22 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
+    "relic_card": false
+  },
+  {
+    "id": 128,
+    "player": "James Wood",
+    "team": "Washington Nationals",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps Chrome",
+    "card_number": "1",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 15.00,
+    "notes": "Chrome Holographic",
     "relic_card": false
   },
   {
