@@ -128,6 +128,22 @@
     "relic_card": false
   },
   {
+    "id": 141,
+    "player": "Andrew Benintendi",
+    "team": "Chicago Whte Sox",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps Series One",
+    "card_number": "344",
+    "position": "OF",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "mint",
+    "estimated_value": 3.50,
+    "notes": "Holographic",
+    "relic_card": false
+  },
+  {
     "id": 9,
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
@@ -320,19 +336,51 @@
     "relic_card": false
   },
   {
+    "id": 133,
+    "player": "Cade Cavalli",
+    "team": "Washington Nationals",
+    "year": 2023,
+    "brand": "Topps",
+    "set": "Topps Series Two",
+    "card_number": "692",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 1.00,
+    "notes": "",
+    "relic_card": false
+  },
+  {
     "id": 21,
     "player": "Slade Cecconi",
     "team": "Cleveland Guardians",
     "year": 2026,
     "brand": "Topps",
-    "set": "Topps Series Two",
-    "card_number": "240",
+    "set": "Topps",
+    "card_number": "296",
     "position": "P",
-    "rookie_card": false,
+    "rookie_card": true,
     "autograph": false,
     "condition": "Mint",
-    "estimated_value": 0.01,
-    "notes": "Guardians 2026 Team Set",
+    "estimated_value": 7.00,
+    "notes": "",
+    "relic_card": false
+  },
+  {
+    "id": 132,
+    "player": "Andrew Chafin",
+    "team": "Arizona Diamond Backs",
+    "year": 2015,
+    "brand": "Topps",
+    "set": "Topps Series Two",
+    "card_number": "692",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 1.00,
+    "notes": "",
     "relic_card": false
   },
   {
@@ -431,6 +479,22 @@
     "notes": "",
     "relic_card": false
   },
+   {
+    "id": 136,
+    "player": "Dave Doling, Bob Tolan", 
+    "team": "St. Lous Cardinals",
+    "year": 1965,
+    "brand": "Topps",
+    "set": "Topps",
+    "card_number": "116",
+    "position": "P/OF",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Graded VG-EX 4",
+    "estimated_value": 3.25,
+    "notes": "Cards 1965 Rookie Stars",
+    "relic_card": false
+  },
   {
     "id": 28,
     "player": "Larry Doby",
@@ -445,22 +509,6 @@
     "condition": "Mint",
     "estimated_value": 4.0,
     "notes": "Denny's Promotional Holographic",
-    "relic_card": false
-  },
-  {
-    "id": 29,
-    "player": "Dane Dunning",
-    "team": "Chicago White Sox",
-    "year": 2021,
-    "brand": "Topps",
-    "set": "Topps Series One",
-    "card_number": "231",
-    "position": "P",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 0.25,
-    "notes": "",
     "relic_card": false
   },
   {
@@ -493,6 +541,22 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
+    "relic_card": false
+  },
+  {
+    "id": 137,
+    "player": "Derek Fisher",
+    "team": "Houston Astros",
+    "year": 2014,
+    "brand": "Bowman Sterling",
+    "set": "Bowman Sterling",
+    "card_number": "BSPA-DF",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "fair",
+    "estimated_value": 0.25,
+    "notes": "Bowman Sterling Topps Certified Autograph Collection",
     "relic_card": false
   },
   {
@@ -735,6 +799,22 @@
     "notes": "",
     "relic_card": false
   },
+   {
+    "id": 140,
+    "player": "DJ Herz",
+    "team": "Washington Nationals",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps Series One",
+    "card_number": "287",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "mint",
+    "estimated_value": 5.00,
+    "notes": "",
+    "relic_card": false
+  },
   {
     "id": 47,
     "player": "Bo Jackson",
@@ -960,6 +1040,22 @@
     "relic_card": false
   },
   {
+    "id": 139,
+    "player": "Seth Lugo",
+    "team": "Kansas City Royals",
+    "year": 2025,
+    "brand": "Topps",
+    "set": "Topps Series One",
+    "card_number": "206",
+    "position": "P",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "mint",
+    "estimated_value": 0.01,
+    "notes": "",
+    "relic_card": false
+  },
+  {
     "id": 61,
     "player": "Manny Machado",
     "team": "San Diego Padres",
@@ -1168,6 +1264,22 @@
     "relic_card": false
   },
   {
+    "id": 135,
+    "player": "Josh Naylor",
+    "team": "San Diego Padres",
+    "year": 2021,
+    "brand": "Bowman Sterling",
+    "set": "Bowman Chrome",
+    "card_number": "AFLR-JN",
+    "position": "OF",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 18.00,
+    "notes": "Game-Worn 2017 Spring Training Jersey Piece",
+    "relic_card": true
+  },
+  {
     "id": 74,
     "player": "Nick Neidert",
     "team": "Miami Marlins",
@@ -1328,6 +1440,22 @@
     "relic_card": false
   },
   {
+    "id": 131,
+    "player": "Albert Pujols",
+    "team": "St. Louis Cardinals",
+    "year": 2007,
+    "brand": "Topps",
+    "set": "Topps Baseball Series One",
+    "card_number": "HR-AP",
+    "position": "1B",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 40,
+    "notes": "Game-Worn Jersey Relic Card",
+    "relic_card": true
+  },
+  {
     "id": 84,
     "player": "Albert Pujols",
     "team": "Los Angeles Angels",
@@ -1472,6 +1600,22 @@
     "relic_card": false
   },
   {
+    "id": 138,
+    "player": "Luigi Rodriguez",
+    "team": "Cleveland Indians",
+    "year": 2014,
+    "brand": "Bowman Chrome",
+    "set": "Topps Certified Autograph Issue",
+    "card_number": "BCAP-LR (407/500)",
+    "position": "OF",
+    "rookie_card": true,
+    "autograph": true,
+    "condition": "mint",
+    "estimated_value": 5.00,
+    "notes": "Topps Certified Autograph Issue, Refractor Card",
+    "relic_card": false
+  },
+  {
     "id": 92,
     "player": "Brayan Rocchio",
     "team": "Cleveland Guardians",
@@ -1581,6 +1725,22 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
+    "relic_card": false
+  },
+    {
+    "id": 134,
+    "player": "Tyler Skaggs",
+    "team": "Arizona Diamondbacks",
+    "year": 2012,
+    "brand": "Bowman Sterling",
+    "set": "Bowman Sterling Prospects",
+    "card_number": "BSP40",
+    "position": "P",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 2.50,
+    "notes": "Topps Bowman Sterling Collection",
     "relic_card": false
   },
   {
