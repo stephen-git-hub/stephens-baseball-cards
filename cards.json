@@ -95,6 +95,22 @@
     "notes": "Graded GEM MT 10 by PSA",
     "relic_card": false
   },
+   {
+    "id": 141,
+    "player": "Luis Arraez",
+    "team": "Minnesota Twins",
+    "year": 2019,
+    "brand": "Topps",
+    "set": "Topps 2019 Update Series",
+    "card_number": "US247",
+    "position": "2B/SS",
+    "rookie_card": true,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 29.0,
+    "notes": "Graded GEM MT 10 by PSA",
+    "relic_card": false
+  },
   {
     "id": 7,
     "player": "Carlos Baerga",
@@ -2046,6 +2062,22 @@
     "estimated_value": 1.0,
     "notes": "Holographic",
     "relic_card": false
+  },
+  {
+    "id": 142,
+    "player": "Justin Verlander",
+    "team": "Houston Astros",
+    "year": 2019,
+    "brand": "Topps",
+    "set": "Topps 2019 Series One",
+    "card_number": "MLM-JV",
+    "position": "P",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 35.0,
+    "notes": "Relic Card (Game-Worn Jersey Piece)",
+    "relic_card": true
   },
   {
     "id": 129,
