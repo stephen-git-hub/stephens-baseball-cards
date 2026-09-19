@@ -13,7 +13,8 @@
     "condition": "Mint",
     "estimated_value": 10.0,
     "notes": "Relic Card (Jersey Piece)",
-    "relic_card": true
+    "relic_card": true,
+    "graded_card": false
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Commemorative Portrait",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Future Stars",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 6,
@@ -93,23 +98,8 @@
     "condition": "Mint",
     "estimated_value": 15.0,
     "notes": "Graded GEM MT 10 by PSA",
-    "relic_card": false
-  },
-   {
-    "id": 141,
-    "player": "Luis Arraez",
-    "team": "Minnesota Twins",
-    "year": 2019,
-    "brand": "Topps",
-    "set": "Topps 2019 Update Series",
-    "card_number": "US247",
-    "position": "2B/SS",
-    "rookie_card": true,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 29.0,
-    "notes": "Graded GEM MT 10 by PSA",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 7,
@@ -125,7 +115,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 8,
@@ -141,7 +132,8 @@
     "condition": "Mint",
     "estimated_value": 4.0,
     "notes": "Post Cereal Box Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 9,
@@ -157,7 +149,8 @@
     "condition": "Mint",
     "estimated_value": 3.5,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 10,
@@ -173,7 +166,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 11,
@@ -189,7 +183,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 12,
@@ -205,7 +200,8 @@
     "condition": "Mint",
     "estimated_value": 7.0,
     "notes": "Commemorative Portrait",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 13,
@@ -221,7 +217,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "League Leaders",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 14,
@@ -237,7 +234,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 15,
@@ -253,7 +251,8 @@
     "condition": "Mint",
     "estimated_value": 3.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 16,
@@ -269,7 +268,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Post Cereal Box Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 17,
@@ -285,7 +285,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Post Cereal Box Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 18,
@@ -301,7 +302,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 19,
@@ -317,7 +319,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 20,
@@ -333,7 +336,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 21,
@@ -349,7 +353,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 22,
@@ -365,7 +370,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 23,
@@ -381,7 +387,8 @@
     "condition": "Mint",
     "estimated_value": 7.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 24,
@@ -397,7 +404,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 25,
@@ -413,7 +421,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 26,
@@ -429,7 +438,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 27,
@@ -445,7 +455,8 @@
     "condition": "Mint",
     "estimated_value": 2.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 28,
@@ -461,7 +472,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 29,
@@ -477,7 +489,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 30,
@@ -493,7 +506,8 @@
     "condition": "Mint",
     "estimated_value": 15.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 31,
@@ -509,7 +523,8 @@
     "condition": "Mint",
     "estimated_value": 4.0,
     "notes": "Denny's Promotional Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 32,
@@ -525,7 +540,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 33,
@@ -541,7 +557,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 34,
@@ -557,7 +574,8 @@
     "condition": "Fair",
     "estimated_value": 0.25,
     "notes": "Bowman Sterling Topps Certified Autograph Collection",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 35,
@@ -573,7 +591,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 36,
@@ -589,7 +608,8 @@
     "condition": "Mint",
     "estimated_value": 3.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 37,
@@ -605,7 +625,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 38,
@@ -621,7 +642,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 39,
@@ -637,7 +659,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 40,
@@ -653,7 +676,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Future Stars",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 41,
@@ -669,7 +693,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 42,
@@ -685,7 +710,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 43,
@@ -701,7 +727,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 44,
@@ -717,7 +744,8 @@
     "condition": "Fair",
     "estimated_value": 0.01,
     "notes": "775th Stolen Base Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 45,
@@ -733,7 +761,8 @@
     "condition": "Like New",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 46,
@@ -749,7 +778,8 @@
     "condition": "Fair",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 47,
@@ -765,7 +795,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 48,
@@ -781,7 +812,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 49,
@@ -797,7 +829,8 @@
     "condition": "Like New",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 50,
@@ -813,7 +846,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 51,
@@ -829,7 +863,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 52,
@@ -845,7 +880,8 @@
     "condition": "Like New",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 53,
@@ -861,7 +897,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 54,
@@ -877,7 +914,8 @@
     "condition": "Like New",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 55,
@@ -893,7 +931,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 56,
@@ -909,7 +948,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 57,
@@ -925,7 +965,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 58,
@@ -941,7 +982,8 @@
     "condition": "Mint",
     "estimated_value": 3.0,
     "notes": "Commemorative Tomahawk Portrait",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 59,
@@ -957,7 +999,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 60,
@@ -973,7 +1016,8 @@
     "condition": "Mint",
     "estimated_value": 0.5,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 61,
@@ -989,7 +1033,8 @@
     "condition": "Mint",
     "estimated_value": 7.5,
     "notes": "Special Anniversary Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 62,
@@ -1005,7 +1050,8 @@
     "condition": "Mint",
     "estimated_value": 15.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 63,
@@ -1021,7 +1067,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 64,
@@ -1037,7 +1084,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 65,
@@ -1053,7 +1101,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 66,
@@ -1069,7 +1118,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 67,
@@ -1085,7 +1135,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 68,
@@ -1101,7 +1152,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 69,
@@ -1117,7 +1169,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 70,
@@ -1133,7 +1186,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 71,
@@ -1149,7 +1203,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 72,
@@ -1165,7 +1220,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 73,
@@ -1181,7 +1237,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 74,
@@ -1197,7 +1254,8 @@
     "condition": "Poor",
     "estimated_value": 0.01,
     "notes": "Post Cereal Box Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 75,
@@ -1213,7 +1271,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 76,
@@ -1229,7 +1288,8 @@
     "condition": "Mint",
     "estimated_value": 2.5,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 77,
@@ -1245,7 +1305,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 78,
@@ -1261,7 +1322,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 79,
@@ -1277,7 +1339,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 80,
@@ -1293,7 +1356,8 @@
     "condition": "Mint",
     "estimated_value": 18.0,
     "notes": "Game-Worn 2017 Spring Training Jersey Piece",
-    "relic_card": true
+    "relic_card": true,
+    "graded_card": false
   },
   {
     "id": 81,
@@ -1309,7 +1373,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 82,
@@ -1325,7 +1390,8 @@
     "condition": "Mint",
     "estimated_value": 30.0,
     "notes": "Graded GEM MT 10 by GMA; First Dodgers HR Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 83,
@@ -1341,7 +1407,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "2010 Home Run Derby Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 84,
@@ -1357,7 +1424,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "League Leaders",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 85,
@@ -1373,7 +1441,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 86,
@@ -1389,7 +1458,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 87,
@@ -1405,7 +1475,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 88,
@@ -1421,7 +1492,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 89,
@@ -1437,7 +1509,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 90,
@@ -1453,7 +1526,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 91,
@@ -1469,7 +1543,8 @@
     "condition": "Mint",
     "estimated_value": 40.0,
     "notes": "Game-Worn Jersey Relic Card",
-    "relic_card": true
+    "relic_card": true,
+    "graded_card": false
   },
   {
     "id": 92,
@@ -1485,7 +1560,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 93,
@@ -1501,7 +1577,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "2009 All-Star Game Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 94,
@@ -1517,7 +1594,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Most Valuable Player 2009 Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 95,
@@ -1533,7 +1611,8 @@
     "condition": "Mint",
     "estimated_value": 15.0,
     "notes": "Relic Card (Jersey Piece)",
-    "relic_card": true
+    "relic_card": true,
+    "graded_card": false
   },
   {
     "id": 96,
@@ -1549,7 +1628,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 97,
@@ -1565,7 +1645,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Commemorative 70th Anniversary Patch",
-    "relic_card": true
+    "relic_card": true,
+    "graded_card": false
   },
   {
     "id": 98,
@@ -1581,7 +1662,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 99,
@@ -1597,7 +1679,8 @@
     "condition": "Mint",
     "estimated_value": 10.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 100,
@@ -1613,7 +1696,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 101,
@@ -1629,7 +1713,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 102,
@@ -1645,7 +1730,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Topps Certified Autograph Issue, Refractor Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 103,
@@ -1661,7 +1747,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Graded NM-MT 8 by PSA",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 104,
@@ -1677,7 +1764,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Commemorative Portrait",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 105,
@@ -1693,7 +1781,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 106,
@@ -1709,7 +1798,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 107,
@@ -1725,7 +1815,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 108,
@@ -1741,7 +1832,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 109,
@@ -1757,7 +1849,8 @@
     "condition": "Mint",
     "estimated_value": 2.5,
     "notes": "Topps Bowman Sterling Collection",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 110,
@@ -1773,7 +1866,8 @@
     "condition": "Mint",
     "estimated_value": 20.0,
     "notes": "Graded GEM MT 10 by WCG",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 111,
@@ -1789,7 +1883,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 112,
@@ -1805,7 +1900,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 113,
@@ -1821,7 +1917,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 114,
@@ -1837,7 +1934,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 115,
@@ -1853,7 +1951,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 116,
@@ -1869,7 +1968,8 @@
     "condition": "Like New",
     "estimated_value": 1.0,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 117,
@@ -1885,7 +1985,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Post Cereal Box Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 118,
@@ -1901,7 +2002,8 @@
     "condition": "Graded VG-EX 4",
     "estimated_value": 3.25,
     "notes": "1965 Rookie Stars",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 119,
@@ -1917,7 +2019,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 120,
@@ -1933,7 +2036,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 121,
@@ -1949,7 +2053,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 122,
@@ -1965,7 +2070,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 123,
@@ -1981,7 +2087,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 124,
@@ -1997,7 +2104,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Future Stars",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 125,
@@ -2013,7 +2121,8 @@
     "condition": "Mint",
     "estimated_value": 0.5,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 126,
@@ -2029,7 +2138,8 @@
     "condition": "Mint",
     "estimated_value": 5.0,
     "notes": "Certified Autograph",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 127,
@@ -2045,7 +2155,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 128,
@@ -2061,23 +2172,8 @@
     "condition": "Mint",
     "estimated_value": 1.0,
     "notes": "Holographic",
-    "relic_card": false
-  },
-  {
-    "id": 142,
-    "player": "Justin Verlander",
-    "team": "Houston Astros",
-    "year": 2019,
-    "brand": "Topps",
-    "set": "Topps 2019 Series One",
-    "card_number": "MLM-JV",
-    "position": "P",
-    "rookie_card": false,
-    "autograph": false,
-    "condition": "Mint",
-    "estimated_value": 35.0,
-    "notes": "Relic Card (Game-Worn Jersey Piece)",
-    "relic_card": true
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 129,
@@ -2093,7 +2189,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 130,
@@ -2109,7 +2206,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 131,
@@ -2125,7 +2223,8 @@
     "condition": "Mint",
     "estimated_value": 17.0,
     "notes": "Rated GEM MT 10, Authentic Autograph, by Beckett",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": true
   },
   {
     "id": 132,
@@ -2141,7 +2240,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 133,
@@ -2157,7 +2257,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "League Leaders",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 134,
@@ -2173,7 +2274,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "All-Star Game 2010 Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 135,
@@ -2189,7 +2291,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 136,
@@ -2205,7 +2308,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 137,
@@ -2221,7 +2325,8 @@
     "condition": "Mint",
     "estimated_value": 15.0,
     "notes": "Chrome Holographic",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 138,
@@ -2237,7 +2342,8 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Commemorative Portrait",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 139,
@@ -2253,7 +2359,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 140,
@@ -2269,7 +2376,8 @@
     "condition": "Mint",
     "estimated_value": 0.01,
     "notes": "Guardians 2026 Team Set",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   },
   {
     "id": 141,
@@ -2285,6 +2393,7 @@
     "condition": "Mint",
     "estimated_value": 0.25,
     "notes": "Judge Ties Ruth With 321 HRs In 1000 Games Milestone Card",
-    "relic_card": false
+    "relic_card": false,
+    "graded_card": false
   }
 ]
