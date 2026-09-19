@@ -323,7 +323,18 @@ main {
 
 .badge-rc    { background: var(--gold);         color: #fff; }
 .badge-auto  { background: rgba(255,255,255,0.15); color: var(--sand-light); border: 1px solid rgba(232,223,200,0.4); }
-.badge-relic { background: #3a6b5c; color: #e8f5f0; }
+.badge-relic  { background: #3a6b5c; color: #e8f5f0; }
+.badge-graded { background: var(--maroon); color: var(--sand-light); border: 1px solid var(--gold); }
+
+/* Inline graded badge sits beside condition text */
+.badge-inline {
+  font-size: 0.6rem;
+  padding: 1px 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 4px;
+  display: inline-block;
+}
 
 /* Stack RC and AUTO vertically before the diamond */
 .card-badges {
