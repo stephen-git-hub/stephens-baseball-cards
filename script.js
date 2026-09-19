@@ -38,7 +38,8 @@ function updateStats(cards) {
   const totalValue = cards.reduce((sum, c) => sum + (c.estimated_value || 0), 0);
   document.getElementById('total-count').textContent  = cards.length;
   document.getElementById('rc-count').textContent     = cards.filter(c => c.rookie_card).length;
-  document.getElementById('relic-count').textContent  = cards.filter(c => c.relic_card).length;
+  document.getElementById('relic-count').textContent   = cards.filter(c => c.relic_card).length;
+  document.getElementById('graded-count').textContent  = cards.filter(c => c.graded_card).length;
   document.getElementById('auto-count').textContent   = cards.filter(c => c.autograph).length;
   document.getElementById('total-value').textContent  = '$' + totalValue.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 }
@@ -60,6 +61,7 @@ function getFiltered() {
     if (special === 'rookie' && !card.rookie_card) return false;
     if (special === 'auto'   && !card.autograph)   return false;
     if (special === 'relic'  && !card.relic_card)  return false;
+    if (special === 'graded' && !card.graded_card) return false;
     return true;
   });
 }
@@ -106,13 +108,17 @@ function diamondSVG(position) {
 
 // ── Build HTML for a single card ──
 function cardHTML(card) {
-  const rcBadge    = card.rookie_card ? '<span class="badge badge-rc">RC</span>'     : '';
-  const autoBadge  = card.autograph   ? '<span class="badge badge-auto">Auto</span>' : '';
-  const relicBadge = card.relic_card  ? '<span class="badge badge-relic">REL</span>' : '';
+  const rcBadge     = card.rookie_card  ? '<span class="badge badge-rc">RC</span>'       : '';
+  const autoBadge   = card.autograph    ? '<span class="badge badge-auto">Auto</span>'   : '';
+  const relicBadge  = card.relic_card   ? '<span class="badge badge-relic">REL</span>'   : '';
+  const gradedBadge = card.graded_card  ? '<span class="badge badge-graded">Graded</span>' : '';
   const isDual     = card.rookie_card && card.autograph;
   const dualClass  = isDual ? ' dual-badge' : '';
   const badgeStack = (rcBadge || autoBadge || relicBadge)
     ? '<div class="badge-stack">' + rcBadge + autoBadge + relicBadge + '</div>'
+    : '';
+  const gradedPrefix = card.graded_card
+    ? '<span class="badge badge-graded badge-inline">Graded</span> '
     : '';
 
   const value = card.estimated_value
@@ -142,7 +148,7 @@ function cardHTML(card) {
     + '<div class="card-row"><span class="row-label">Set</span><span class="row-value">' + card.set + '</span></div>'
     + '<div class="card-row"><span class="row-label">Card #</span><span class="row-value">#' + card.card_number + '</span></div>'
     + '<div class="card-row"><span class="row-label">Position</span><span class="row-value">' + card.position + '</span></div>'
-    + '<div class="card-row"><span class="row-label">Condition</span><span class="row-value">' + (card.condition || '—') + '</span></div>'
+    + '<div class="card-row"><span class="row-label">Condition</span><span class="row-value">' + gradedPrefix + (card.condition || '—') + '</span></div>'
     + '<div class="card-row"><span class="row-label">Est. value</span><span class="row-value value-money">' + value + '</span></div>'
     + notes
     + '</div>'
