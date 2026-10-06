@@ -63,7 +63,6 @@ header {
   color: var(--sand-light);
   padding: 2rem 2.5rem 1.75rem;
   border-bottom: 4px solid var(--gold);
-  position: relative;
 }
 
 .header-inner {
@@ -79,7 +78,7 @@ header {
 
 .header-title {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
 }
 
@@ -146,15 +145,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  position: absolute;
-  right: calc(2rem + 1.5in);
-  top: 2rem;
+  gap: 4px;
+  margin-left: 1rem;
+  align-self: flex-start;
 }
 
 .header-rotating-card img {
-  width: 1.3in;
-  height: 1.75in;
+  width: 1.1in;
+  height: 1.5in;
   object-fit: contain;
   object-position: center;
   background: #2a0a0a;
@@ -170,10 +168,10 @@ h1 {
 
 #rotating-card-name {
   font-family: 'Caveat', cursive;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: rgba(232,223,200,0.7);
   text-align: center;
-  max-width: 1.3in;
+  max-width: 1.1in;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
