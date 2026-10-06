@@ -1,18 +1,18 @@
 // ── Card photo map (ID -> filename in /images/) ──
 const cardPhotos = {
-  1:   'ID1_Abreau.JPEG',
+  1:   'ID1_Abreu.JPEG',
   34:  'ID34_Fisher.JPEG',
-  80:  'ID80 NaylorJ.JPEG',
+  80:  'ID80_NaylorJ.JPEG',
   91:  'ID91_Pujols.JPEG',
   95:  'ID95_Ramirez.JPEG',
   97:  'ID97_Ripken.JPEG',
   99:  'ID99_Rivera.JPEG',
   102: 'ID102_RogriguezL.JPEG',
-  104: 'ID104_Scheffler.JPEG',
+  105: 'ID104_Scheffler.JPEG',
   126: 'ID126_Vargas.JPEG',
   131: 'ID131_Vizquel.JPEG',
-  142: 'ID142 Schwarber.JPEG',
-  143: 'ID143_Verlander.JPEG',
+  142: 'ID142_Schwarber.JPEG',
+  144: 'ID143_Verlander.JPEG',
 };
 
 // ── Load data and boot the app ──
