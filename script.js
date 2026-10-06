@@ -15,6 +15,31 @@ const cardPhotos = {
   144: 'ID143_Verlander.JPEG',
 };
 
+// ── Rotating header card ──
+// Pick a random photo from the cardPhotos map on each page load
+function initRotatingCard() {
+  const entries = Object.entries(cardPhotos);
+  if (!entries.length) return;
+  const [id, filename] = entries[Math.floor(Math.random() * entries.length)];
+  const img  = document.getElementById('rotating-card-img');
+  const name = document.getElementById('rotating-card-name');
+  if (!img) return;
+  img.src = 'images/' + encodeURIComponent(filename);
+  img.alt = filename;
+  // Find player name from loaded cards once data is ready
+  img._cardId = parseInt(id);
+}
+
+function setRotatingCardName(cards) {
+  const img = document.getElementById('rotating-card-img');
+  if (!img) return;
+  const card = cards.find(c => c.id === img._cardId);
+  const name = document.getElementById('rotating-card-name');
+  if (card && name) name.textContent = card.player;
+}
+
+initRotatingCard();
+
 // ── Load data and boot the app ──
 let allCards = [];
 
@@ -25,6 +50,7 @@ fetch('cards.json')
     buildFilters(data);
     updateStats(data);
     renderCards(data);
+    setRotatingCardName(data);
   })
   .catch(err => {
     console.error('Failed to load cards.json:', err);
