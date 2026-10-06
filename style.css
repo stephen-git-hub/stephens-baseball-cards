@@ -69,7 +69,7 @@ header {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -137,6 +137,42 @@ h1 {
   letter-spacing: 0.08em;
   color: rgba(232,223,200,0.5);
   margin-top: 2px;
+}
+
+/* ── Rotating header card ── */
+.header-rotating-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.header-rotating-card img {
+  width: 1.3in;
+  height: 1.75in;
+  object-fit: contain;
+  object-position: center;
+  background: #2a0a0a;
+  border: 2px solid var(--sand);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  display: block;
+}
+
+.header-rotating-card img[src=""] {
+  display: none;
+}
+
+#rotating-card-name {
+  font-family: 'Caveat', cursive;
+  font-size: 0.75rem;
+  color: rgba(232,223,200,0.7);
+  text-align: center;
+  max-width: 1.3in;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ── Main ── */
