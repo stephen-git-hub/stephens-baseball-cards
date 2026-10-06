@@ -1,3 +1,20 @@
+// ── Card photo map (ID -> filename in /images/) ──
+const cardPhotos = {
+  1:   'ID1_Abreau.JPEG',
+  34:  'ID34_Fisher.JPEG',
+  80:  'ID80 NaylorJ.JPEG',
+  91:  'ID91_Pujols.JPEG',
+  95:  'ID95_Ramirez.JPEG',
+  97:  'ID97_Ripken.JPEG',
+  99:  'ID99_Rivera.JPEG',
+  102: 'ID102_RogriguezL.JPEG',
+  104: 'ID104_Scheffler.JPEG',
+  126: 'ID126_Vargas.JPEG',
+  131: 'ID131_Vizquel.JPEG',
+  142: 'ID142 Schwarber.JPEG',
+  143: 'ID143_Verlander.JPEG',
+};
+
 // ── Load data and boot the app ──
 let allCards = [];
 
@@ -121,6 +138,11 @@ function cardHTML(card) {
     ? '<span class="badge badge-graded badge-inline">Graded</span> '
     : '';
 
+  const photoFile = cardPhotos[card.id];
+  const photoBtn  = photoFile
+    ? '<div class="card-photo-row"><button class="photo-btn" onclick="showPhoto(\'images/' + encodeURIComponent(photoFile) + '\', \''+card.player+'\')">&#128247; PHOTO</button></div>'
+    : '';
+
   const value = card.estimated_value
     ? '$' + card.estimated_value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
     : '—';
@@ -151,6 +173,7 @@ function cardHTML(card) {
     + '<div class="card-row"><span class="row-label">Condition</span><span class="row-value">' + gradedPrefix + (card.condition || '—') + '</span></div>'
     + '<div class="card-row"><span class="row-label">Est. value</span><span class="row-value value-money">' + value + '</span></div>'
     + notes
+    + photoBtn
     + '</div>'
     + '</div>';
 }
@@ -188,4 +211,37 @@ document.getElementById('card-grid').addEventListener('mouseout', function(e) {
   if (!top) return;
   const rain = top.querySelector('.emoji-rain');
   if (rain) rain.remove();
+});
+
+// ── Photo modal ──
+function showPhoto(src, player) {
+  let modal = document.getElementById('photo-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'photo-modal';
+    modal.innerHTML = `
+      <div class="photo-modal-backdrop" onclick="closePhoto()"></div>
+      <div class="photo-modal-card">
+        <button class="photo-modal-close" onclick="closePhoto()">&#x2715;</button>
+        <img id="photo-modal-img" src="" alt="" />
+        <div class="photo-modal-name" id="photo-modal-name"></div>
+      </div>`;
+    document.body.appendChild(modal);
+  }
+  document.getElementById('photo-modal-img').src  = src;
+  document.getElementById('photo-modal-img').alt  = player;
+  document.getElementById('photo-modal-name').textContent = player;
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closePhoto() {
+  const modal = document.getElementById('photo-modal');
+  if (modal) modal.style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closePhoto();
 });
