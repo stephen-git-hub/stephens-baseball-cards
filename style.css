@@ -462,3 +462,108 @@ footer {
   gap: 3px;
   align-items: flex-end;
 }
+
+/* ── Photo button ── */
+.card-photo-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--sand-dark);
+}
+
+.photo-btn {
+  font-family: 'Source Sans 3', Arial, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  background: var(--maroon-pale);
+  border: 1.5px solid var(--maroon);
+  border-radius: 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.photo-btn:hover {
+  background: var(--maroon);
+  color: var(--sand-light);
+}
+
+/* ── Photo modal ── */
+#photo-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 10, 10, 0.72);
+  backdrop-filter: blur(3px);
+}
+
+.photo-modal-card {
+  position: relative;
+  z-index: 1001;
+  width: 2.6in;
+  height: 3.5in;
+  background: var(--parchment);
+  border: 3px solid var(--gold);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-modal-card img {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.photo-modal-name {
+  font-family: 'Caveat', cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--maroon);
+  text-align: center;
+  padding: 6px 8px 8px;
+  background: var(--tan);
+  border-top: 2px solid var(--gold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.photo-modal-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: rgba(107,26,26,0.75);
+  color: var(--sand-light);
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1002;
+  line-height: 1;
+}
+
+.photo-modal-close:hover {
+  background: var(--maroon);
+}
