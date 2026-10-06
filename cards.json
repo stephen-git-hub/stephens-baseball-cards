@@ -2414,6 +2414,23 @@
     "graded_card": false
   },
   {
+    "id": 142,
+    "player": "Kyle Schwarber",
+    "team": "Chicago Cubs",
+    "year": 2019,
+    "brand": "Topps",
+    "set": "Topps Tier One Baseball",
+    "card_number": "T1R-KS",
+    "position": "OF",
+    "rookie_card": false,
+    "autograph": false,
+    "condition": "Mint",
+    "estimated_value": 40.00,
+    "notes": "Relic Card (Jersey Piece)",
+    "relic_card": true, 
+    "graded_card": false
+  },
+  {
     "id": 141,
     "player": "Legends Unite",
     "team": "New York Yankees",
