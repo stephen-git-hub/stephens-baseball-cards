@@ -12,7 +12,7 @@ const cardPhotos = {
   126: 'ID126_Vargas.JPEG',
   131: 'ID131_Vizquel.JPEG',
   142: 'ID142_Schwarber.JPEG',
-  144: 'ID143_Verlander.JPEG',
+  143: 'ID143_Verlander.JPEG',
 };
 
 // ── Rotating header card ──
